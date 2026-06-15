@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     if (mexicoStats.index === 1) {
-        firstTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/mexico-bandera.png"
+        firstTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/mexico-bandera.webp"
                                     alt=""></span>${mexicoStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${mexicoStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${mexicoStats.pg}</div>
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     if (mexicoStats.index === 2) {
-        secondTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/mexico-bandera.png"
+        secondTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/mexico-bandera.webp"
                                     alt=""></span>${mexicoStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${mexicoStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${mexicoStats.pg}</div>
@@ -212,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     if (mexicoStats.index === 3) {
-        thirdTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/mexico-bandera.png"
+        thirdTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/mexico-bandera.webp"
                                     alt=""></span>${mexicoStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${mexicoStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${mexicoStats.pg}</div>
@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     if (mexicoStats.index === 4) {
-        fourthTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/mexico-bandera.png"
+        fourthTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/mexico-bandera.webp"
                                     alt=""></span>${mexicoStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${mexicoStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${mexicoStats.pg}</div>
