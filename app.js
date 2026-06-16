@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     if (mexicoStats.index === 1) {
-        firstTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/mexico-bandera.webp"
+        firstTeam.innerHTML = `                        <p class="country"> <span><img src="images/mexico-bandera.png"
                                     alt=""></span>${mexicoStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${mexicoStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${mexicoStats.pg}</div>
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>`
     }
     else if (sudafricaStats.index === 1) {
-        firstTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/sudafrica-bandera.png"
+        firstTeam.innerHTML = `                        <p class="country"> <span><img src="images/sudafrica-bandera.png"
                                     alt=""></span>${sudafricaStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${sudafricaStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${sudafricaStats.pg}</div>
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     else if (coreaStats.index === 1) {
-        firstTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/coreadelsur-bandera.png"
+        firstTeam.innerHTML = `                        <p class="country"> <span><img src="images/coreadelsur-bandera.png"
                                     alt=""></span>${coreaStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${coreaStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${coreaStats.pg}</div>
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     else if (chequiaStats.index === 1) {
-        firstTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/chequia-bandera.png"
+        firstTeam.innerHTML = `                        <p class="country"> <span><img src="images/chequia-bandera.png"
                                     alt=""></span>${chequiaStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${chequiaStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${chequiaStats.pg}</div>
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     if (mexicoStats.index === 2) {
-        secondTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/mexico-bandera.webp"
+        secondTeam.innerHTML = `                        <p class="country"> <span><img src="images/mexico-bandera.png"
                                     alt=""></span>${mexicoStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${mexicoStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${mexicoStats.pg}</div>
@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>`
     }
     else if (sudafricaStats.index === 2) {
-        secondTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/sudafrica-bandera.png"
+        secondTeam.innerHTML = `                        <p class="country"> <span><img src="images/sudafrica-bandera.png"
                                     alt=""></span>${sudafricaStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${sudafricaStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${sudafricaStats.pg}</div>
@@ -188,7 +188,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     else if (coreaStats.index === 2) {
-        secondTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/coreadelsur-bandera.png"
+        secondTeam.innerHTML = `                        <p class="country"> <span><img src="images/coreadelsur-bandera.png"
                                     alt=""></span>${coreaStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${coreaStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${coreaStats.pg}</div>
@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     else if (chequiaStats.index === 2) {
-        secondTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/chequia-bandera.png"
+        secondTeam.innerHTML = `                        <p class="country"> <span><img src="images/chequia-bandera.png"
                                     alt=""></span>${chequiaStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${chequiaStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${chequiaStats.pg}</div>
@@ -212,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     if (mexicoStats.index === 3) {
-        thirdTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/mexico-bandera.webp"
+        thirdTeam.innerHTML = `                        <p class="country"> <span><img src="images/mexico-bandera.png"
                                     alt=""></span>${mexicoStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${mexicoStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${mexicoStats.pg}</div>
@@ -223,7 +223,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>`
     }
     else if (sudafricaStats.index === 3) {
-        thirdTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/sudafrica-bandera.png"
+        thirdTeam.innerHTML = `                        <p class="country"> <span><img src="images/sudafrica-bandera.png"
                                     alt=""></span>${sudafricaStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${sudafricaStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${sudafricaStats.pg}</div>
@@ -235,7 +235,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     else if (coreaStats.index === 3) {
-        thirdTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/coreadelsur-bandera.png"
+        thirdTeam.innerHTML = `                        <p class="country"> <span><img src="images/coreadelsur-bandera.png"
                                     alt=""></span>${coreaStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${coreaStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${coreaStats.pg}</div>
@@ -247,7 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     else if (chequiaStats.index === 3) {
-        thirdTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/chequia-bandera.png"
+        thirdTeam.innerHTML = `                        <p class="country"> <span><img src="images/chequia-bandera.png"
                                     alt=""></span>${chequiaStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${chequiaStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${chequiaStats.pg}</div>
@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     if (mexicoStats.index === 4) {
-        fourthTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/mexico-bandera.webp"
+        fourthTeam.innerHTML = `                        <p class="country"> <span><img src="images/mexico-bandera.png"
                                     alt=""></span>${mexicoStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${mexicoStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${mexicoStats.pg}</div>
@@ -270,7 +270,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>`
     }
     else if (sudafricaStats.index === 4) {
-        fourthTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/sudafrica-bandera.png"
+        fourthTeam.innerHTML = `                        <p class="country"> <span><img src="images/sudafrica-bandera.png"
                                     alt=""></span>${sudafricaStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${sudafricaStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${sudafricaStats.pg}</div>
@@ -282,7 +282,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     else if (coreaStats.index === 4) {
-        fourthTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/coreadelsur-bandera.png"
+        fourthTeam.innerHTML = `                        <p class="country"> <span><img src="images/coreadelsur-bandera.png"
                                     alt=""></span>${coreaStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${coreaStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${coreaStats.pg}</div>
@@ -294,7 +294,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
     else if (chequiaStats.index === 4) {
-        fourthTeam.innerHTML = `                        <p class="country"> <span><img src="/worldcup-fixture/images/chequia-bandera.png"
+        fourthTeam.innerHTML = `                        <p class="country"> <span><img src="images/chequia-bandera.png"
                                     alt=""></span>${chequiaStats.country}</p>
                         <p class="matches" id="mexico-playedGames">${chequiaStats.pj}</p>
                         <div class="matches" id="mexico-wonGames">${chequiaStats.pg}</div>
