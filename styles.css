@@ -53,7 +53,7 @@ nav h1 {
 }
 
 main {
-    padding-top: 200px;
+    padding-top: 100px;
     width: 100%;
     color: #d9d9d9;
     display: flex;
@@ -413,8 +413,27 @@ input[type="number"]::-webkit-inner-spin-button {
         font-size: 2rem;
     }
 
+    main {
+        padding-top: 50px;
+    }
+
     main .hero {
-        width: 90%;
+        width: 80%;
+    }
+
+    .hero .mexico img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .hero .canada img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .hero .usa img {
+        width: 80px;
+        height: 80px;
     }
 
     .matches-board {
@@ -435,7 +454,7 @@ input[type="number"]::-webkit-inner-spin-button {
         align-items: center;
     }
 
-     .match {
+    .match {
         width: 100%;
         padding: 4%;
 
@@ -496,7 +515,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 @media only screen and (max-width:600px) {
 
-    nav{
+    nav {
         padding-right: 4%;
     }
 
@@ -506,6 +525,21 @@ input[type="number"]::-webkit-inner-spin-button {
 
     main {
         justify-content: center;
+    }
+
+    .hero .mexico img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .hero .canada img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .hero .usa img {
+        width: 60px;
+        height: 60px;
     }
 
 
