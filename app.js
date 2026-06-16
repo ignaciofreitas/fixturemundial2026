@@ -461,7 +461,7 @@ const mexicoPoints = document.getElementById("mexico-points")
 
 let mexicoStats = {
     "index": 1,
-    "country": "Mexico",
+    "country": "MEXICO",
     "pj": 0,
     "pg": 0,
     "pe": 0,
@@ -481,7 +481,7 @@ const sudafricaPoints = document.getElementById("sudafrica-points")
 
 let sudafricaStats = {
     "index": 2,
-    "country": "Sudáfrica",
+    "country": "SUDÁFRICA",
     "pj": 0,
     "pg": 0,
     "pe": 0,
@@ -501,7 +501,7 @@ const coreaPoints = document.getElementById("corea-points")
 
 let coreaStats = {
     "index": 3,
-    "country": "Corea del sur",
+    "country": "COREA DEL SUR",
     "pj": 0,
     "pg": 0,
     "pe": 0,
@@ -521,7 +521,7 @@ const chequiaPoints = document.getElementById("chequia-points")
 
 let chequiaStats = {
     "index": 4,
-    "country": "Chequia",
+    "country": "CHEQUIA",
     "pj": 0,
     "pg": 0,
     "pe": 0,

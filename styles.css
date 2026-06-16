@@ -157,6 +157,7 @@ main .hero .hero-image {
     display: flex;
     align-items: center;
     width: 100%;
+    text-transform: uppercase;
 }
 
 .column1-titles .country {
@@ -339,6 +340,7 @@ main .hero .hero-image {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
 }
 
 .rival1score {
@@ -354,6 +356,7 @@ main .hero .hero-image {
     display: flex;
     justify-content: center;
     align-items: center;
+        text-transform: uppercase;
 }
 
 .rival2score {
