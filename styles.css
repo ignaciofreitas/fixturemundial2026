@@ -187,6 +187,7 @@ main .hero .hero-image {
     width: 40%;
     display: flex;
     align-items: center;
+    text-transform: uppercase;
     padding: 10px;
 }
 
@@ -214,6 +215,7 @@ main .hero .hero-image {
     display: flex;
     align-items: center;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 .column3-titles .country span img {
@@ -240,6 +242,7 @@ main .hero .hero-image {
     display: flex;
     align-items: center;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 .column4-titles .country span img {
@@ -266,6 +269,7 @@ main .hero .hero-image {
     display: flex;
     align-items: center;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 .column5-titles .country span img {
@@ -384,6 +388,8 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .save-container button {
     background-color: #09e014;
+    border: none;
+    border-radius: 12px;
     height: 30px;
     font-weight: bold;
     width: 80px;
@@ -597,6 +603,7 @@ input[type="number"]::-webkit-inner-spin-button {
         height: 25%;
         width: 100%;
         justify-content: start;
+        margin-bottom: 3%;
     }
 
     .rival1team {
@@ -607,7 +614,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .rival1score {
         font-size: .9rem;
-        width: 15%;
+        width: 10%;
     }
 
     .rival2team {
@@ -618,7 +625,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .rival2score {
         font-size: .9rem;
-        width: 15%;
+        width: 10%;
     }
 
     .save-container {

@@ -457,7 +457,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-//STATS MEXICO//
+//STATS GRUPO A//
 
 const mexicoPlayedGames = document.getElementById("mexico-playedGames")
 const mexicoWonGames = document.getElementById("mexico-wonGames")
@@ -477,8 +477,6 @@ let mexicoStats = {
     "pts": 0
 }
 
-//STATS SUDAFRICA
-
 const sudafricaPlayedGames = document.getElementById("sudafrica-playedGames")
 const sudafricaWonGames = document.getElementById("sudafrica-wonGames")
 const sudafricaDrawGames = document.getElementById("sudafrica-drawGames")
@@ -496,8 +494,6 @@ let sudafricaStats = {
     "dg": 0,
     "pts": 0
 }
-
-//STATS COREA DEL SUR
 
 const coreaPlayedGames = document.getElementById("corea-playedGames")
 const coreaWonGames = document.getElementById("corea-wonGames")
@@ -517,8 +513,6 @@ let coreaStats = {
     "pts": 0
 }
 
-//STATS CHEQUIA
-
 const chequiaPlayedGames = document.getElementById("chequia-playedGames")
 const chequiaWonGames = document.getElementById("chequia-wonGames")
 const chequiaDrawGames = document.getElementById("chequia-drawGames")
@@ -537,12 +531,11 @@ let chequiaStats = {
     "pts": 0
 }
 
-//ORDENAR EQUIPOS
-
-
 
 
 //MARCADORES
+
+//--GRUPO A--//
 
 let resultlMatch1 = {
     "mexico": 0,
