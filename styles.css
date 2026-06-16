@@ -443,11 +443,12 @@ input[type="number"]::-webkit-inner-spin-button {
 
     main {
         justify-content: center;
+        
 
     }
 
     .group {
-        max-width: 80%;
+        width: 100%;
     }
 
     .match-date {
