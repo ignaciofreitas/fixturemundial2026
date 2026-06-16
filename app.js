@@ -22,11 +22,13 @@ const saveBtn5 = document.getElementById("btn5");
 const scoreTeam11 = document.getElementById("scoreteam11");
 const scoreTeam12 = document.getElementById("scoreteam12");
 const saveBtn6 = document.getElementById("btn6");
-
+//ACTUALIZACION DE PUESTOS ENTRE LOS EQUIPOS
 const firstTeam = document.getElementById('1');
 const secondTeam = document.getElementById('2');
 const thirdTeam = document.getElementById('3');
 const fourthTeam = document.getElementById('4');
+//BOTONES DE DESHACER CAMBIOS
+
 
 //CARGAR LOCAL STORAGE//
 document.addEventListener("DOMContentLoaded", function () {
@@ -42,13 +44,116 @@ document.addEventListener("DOMContentLoaded", function () {
         const match1 = JSON.parse(raw1);
         if (match1.mexico !== 0 && match1.sudafrica !== 0) {
             loadFromLocal();
+            // const undoBtn = document.getElementById("undoBtn1")
+            // undoBtn.addEventListener("click", (e) => {
+            //     e.preventDefault();
+
+            //     //reinicia el valor por defecto del resultado   
+            //     resultlMatch1.mexico = 0
+            //     resultlMatch1.sudafrica = 0
+
+            //     //reinicia el valor por defecto de las stats de ambos equipos
+            //     let mexicoStats = {
+            //         "index": 1,
+            //         "country": "Mexico",
+            //         "pj": 0,
+            //         "pg": 0,
+            //         "pe": 0,
+            //         "pp": 0,
+            //         "dg": 0,
+            //         "pts": 0
+            //     }
+
+            //     let sudafricaStats = {
+            //         "index": 2,
+            //         "country": "Sudafrica",
+            //         "pj": 0,
+            //         "pg": 0,
+            //         "pe": 0,
+            //         "pp": 0,
+            //         "dg": 0,
+            //         "pts": 0
+            //     }
+
+            //     // localStorage.removeItem("resultlMatch1");
+            //     // localStorage.removeItem("mexicoSavedStats");
+            //     // localStorage.removeItem("sudafricaSavedStats")
+
+
+            //     let gameOneUndo = `                <div class="match" id="match1">
+            //         <div class="match-date">11/06/2026</div>
+            //         <div class="match-time">16:00</div>
+            //         <div class="match-rivals">
+            //             <div class="rival1team">Mexico</div>
+            //             <input class="rival1score" type="number" id="scoreteam1" min="0">-
+            //             <input class="rival2score" type="number" id="scoreteam2" min="0">
+            //             <div class="rival2team">Sudafrica</div>
+            //         </div>
+            //         <div class="save-container">
+            //             <button id="btn2">Guardar</button>
+            //         </div>
+            //     </div>`
+
+            //     matchOne.innerHTML = gameOneUndo;
+
+            //     saveToLocal()
+            // });
+
         }
+
     }
 
     if (raw2) {
         const match2 = JSON.parse(raw2);
         if (match2.corea !== 0 && match2.chequia !== 0) {
             loadFromLocal2();
+            // const undoBtn2 = document.getElementById("undoBtn2")
+            // undoBtn2.addEventListener("click", (e) => {
+            //     e.preventDefault();
+            //     //reinicia el valor por defecto del resultado   
+            //     resultlMatch2.corea = 0
+            //     resultlMatch2.chequia = 0
+            //     //reinicia el valor por defecto de las stats de ambos equipos
+            //     let coreaStats = {
+            //         "index": 3,
+            //         "country": "Corea del sur",
+            //         "pj": 0,
+            //         "pg": 0,
+            //         "pe": 0,
+            //         "pp": 0,
+            //         "dg": 0,
+            //         "pts": 0
+            //     }
+
+            //     let chequiaStats = {
+            //         "index": 4,
+            //         "country": "Chequia",
+            //         "pj": 0,
+            //         "pg": 0,
+            //         "pe": 0,
+            //         "pp": 0,
+            //         "dg": 0,
+            //         "pts": 0
+            //     }
+
+            //     let gameTwoUndo = `                <div class="match" id="match2">
+            //         <div class="match-date">11/06/2026</div>
+            //         <div class="match-time">16:00</div>
+            //         <div class="match-rivals">
+            //             <div class="rival1team">Corea del sur</div>
+            //             <input class="rival1score" type="number" id="scoreteam3" min="0">-
+            //             <input class="rival2score" type="number" id="scoreteam4" min="0">
+            //             <div class="rival2team">Chequia</div>
+            //         </div>
+            //         <div class="save-container">
+            //             <button id="btn">Guardar</button>
+            //         </div>
+            //     </div>`
+
+            //     matchTwo.innerHTML = gameTwoUndo;
+
+            //     saveToLocal2()
+            // });
         }
     }
 
@@ -56,6 +161,53 @@ document.addEventListener("DOMContentLoaded", function () {
         const match3 = JSON.parse(raw3);
         if (match3.mexico !== 0 && match3.corea !== 0) {
             loadFromLocal3();
+            // const undoBtn3 = document.getElementById("undoBtn3")
+            // undoBtn3.addEventListener("click", (e) => {
+            //     e.preventDefault();
+            //     //reinicia el valor por defecto del resultado   
+            //     resultlMatchd.mexico = 0
+            //     resultlMatch3.corea = 0
+            //     //reinicia el valor por defecto de las stats de ambos equipos
+            //     let mexicoStats = {
+            //         "index": 1,
+            //         "country": "Corea del sur",
+            //         "pj": 0,
+            //         "pg": 0,
+            //         "pe": 0,
+            //         "pp": 0,
+            //         "dg": 0,
+            //         "pts": 0
+            //     }
+
+            //     let coreaStats = {
+            //         "index": 3,
+            //         "country": "Chequia",
+            //         "pj": 0,
+            //         "pg": 0,
+            //         "pe": 0,
+            //         "pp": 0,
+            //         "dg": 0,
+            //         "pts": 0
+            //     }
+
+            //     let gameThreeUndo = `                <div class="match" id="match3">
+            //         <div class="match-date">11/06/2026</div>
+            //         <div class="match-time">16:00</div>
+            //         <div class="match-rivals">
+            //             <div class="rival1team">Mexico</div>
+            //             <input class="rival1score" type="number" id="scoreteam5" min="0">-
+            //             <input class="rival2score" type="number" id="scoreteam6" min="0">
+            //             <div class="rival2team">Corea del sur</div>
+            //         </div>
+            //         <div class="save-container">
+            //             <button id="btn3">Guardar</button>
+            //         </div>
+            //     </div>`
+
+            //     matchThree.innerHTML = gameThreeUndo;
+
+            //     saveToLocal3()
+            // });
         }
     }
 
@@ -79,16 +231,6 @@ document.addEventListener("DOMContentLoaded", function () {
             loadFromLocal6();
         }
     }
-
-    // const a = mexicoStats.pts
-    // const b = sudafricaStats.pts
-    // const c = coreaStats.pts
-    // const d = chequiaStats.pts
-
-    // const es = [a,b,c,d]
-    // console.log(es)
-    // es.sort((x,y) => y - x);
-    // console.log(es)
 
     const keys = [
         'chequiaSavedStats',
@@ -306,19 +448,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
-
-
 });
-
-
-
-// const firstTeam = document.getElementById("1");
-// const secondTeam = document.getElementById("2");
-// const thirdTeam = document.getElementById("3");
-// const fourthTeam = document.getElementById("4");
-
-// console.log(items)
-
 
 //STATS MEXICO//
 
@@ -438,6 +568,8 @@ let resultlMatch6 = {
 }
 
 let result = null
+
+//GRUPO A //
 
 //PRIMER PARTIDO//
 
@@ -576,9 +708,7 @@ saveBtn.addEventListener("click", (e) => {
                         <p class="rival2score">${resultlMatch1.mexico}<p/>
                         <p class="rival2score">${resultlMatch1.sudafrica}<p/>
                         <div class="rival2team">Sudafrica</div>
-                                            <div class="undo-container">
-                        <button class="undoButton-show" id="undoBtn">Deshacer</button>
-                    </div>
+
                     </div>`
 
     matchOne.innerHTML = gameOneSaved;
@@ -612,9 +742,7 @@ function loadFromLocal() {
                         <p class="rival2score">${resultlMatch1.mexico}<p/>
                         <p class="rival2score">${resultlMatch1.sudafrica}<p/>
                         <div class="rival2team">Sudafrica</div>
-                        <div class="undo-container">
-                            <button class="undoButton-show" id="undoBtn">Deshacer</button>
-                    </div>
+
                     </div>`
 
     mexicoPlayedGames.textContent = mexicoStats.pj
@@ -759,6 +887,7 @@ saveBtn2.addEventListener("click", (e) => {
                         <p class="rival2score">${resultlMatch2.corea}<p/>
                         <p class="rival2score">${resultlMatch2.chequia}<p/>
                         <div class="rival2team">Chequia</div>
+
                     </div>`
 
     matchTwo.innerHTML = gameTwoSaved;
@@ -804,7 +933,6 @@ function loadFromLocal2() {
     coreaGoalDifference.textContent = coreaStats.dg
     coreaPoints.textContent = coreaStats.pts
 }
-
 
 //PARTIDO 3//
 
@@ -932,7 +1060,8 @@ saveBtn3.addEventListener("click", (e) => {
                         <div class="rival1team">Mexico</div>
                         <p class="rival2score">${resultlMatch3.mexico}<p/>
                         <p class="rival2score">${resultlMatch3.corea}<p/>
-                        <div class="rival2team">Corea del sur</div>
+                        <div class="rival2team">Corea</div>
+
                     </div>`
 
     matchThree.innerHTML = gameThreeSaved;

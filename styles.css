@@ -382,7 +382,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 }
 
-.undo-container .undoButton-show {
+.undo-container button {
     background-color: #fc0b0b;
     color: #d9d9d9;
     height: 30px;
