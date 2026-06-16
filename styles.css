@@ -435,50 +435,137 @@ input[type="number"]::-webkit-inner-spin-button {
         align-items: center;
     }
 
+     .match {
+        width: 100%;
+
+    }
+
+    .match-date {
+        font-size: .9rem;
+        height: 100%;
+        width: 10%;
+    }
+
+    .match-time {
+        font-size: .9rem;
+        width: 10%;
+        height: 100%;
+
+    }
+
+    .match-rivals {
+        font-size: .9rem;
+        height: 100%;
+        width: 65%;
+        justify-content: start;
+    }
+
+    .rival1team {
+        font-size: .9rem;
+        width: 40%;
+        height: 100%;
+    }
+
+    .rival1score {
+        font-size: .9rem;
+        width: 10%;
+    }
+
+    .rival2team {
+        font-size: .9rem;
+        width: 40%;
+        height: 100%;
+    }
+
+    .rival2score {
+        font-size: .9rem;
+        width: 10%;
+    }
+
+    .save-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+        height: 100%;
+    }
 
 }
 
 
 @media only screen and (max-width:600px) {
 
+    nav{
+        padding-right: 4%;
+    }
+
+    nav h1 {
+        font-size: 1.2rem;
+    }
+
     main {
         justify-content: center;
-        
-
     }
+
 
     .group {
         width: 100%;
     }
 
-    .match-date {
-        font-size: .8rem;
+    .match {
+        width: 100%;
+        height: 150px;
+        flex-direction: column;
+    }
 
+    .match-date {
+        font-size: .9rem;
+        height: 25%;
+        width: 100%;
     }
 
     .match-time {
-        font-size: .8rem;
+        font-size: .9rem;
+        width: 100%;
+        height: 25%;
 
     }
 
     .match-rivals {
-        font-size: .8rem;
+        font-size: .9rem;
+        height: 25%;
+        width: 100%;
+        justify-content: start;
     }
 
     .rival1team {
-        font-size: .8rem;
+        font-size: .9rem;
+        width: 35%;
+        height: 100%;
     }
 
     .rival1score {
-        font-size: .8rem;
+        font-size: .9rem;
+        width: 15%;
     }
 
     .rival2team {
-        font-size: .8rem;
+        font-size: .9rem;
+        width: 35%;
+        height: 100%;
     }
 
     .rival2score {
-        font-size: .8rem;
+        font-size: .9rem;
+        width: 15%;
+    }
+
+    .save-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 25%;
     }
 
 
