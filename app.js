@@ -29,6 +29,13 @@ const thirdTeam = document.getElementById('3');
 const fourthTeam = document.getElementById('4');
 //BOTONES DE DESHACER CAMBIOS
 
+const borrar = document.getElementById("borrar")
+
+borrar.addEventListener("click", function (e) {
+    e.preventDefault();
+    localStorage.clear()
+
+})
 
 //CARGAR LOCAL STORAGE//
 document.addEventListener("DOMContentLoaded", function () {

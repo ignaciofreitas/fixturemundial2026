@@ -394,6 +394,20 @@ input[type="number"]::-webkit-inner-spin-button {
 
 }
 
+.deleteBtn{
+    background-color: rgb(182, 52, 52);
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-weight: 700;
+    color:#ececec;
+    border-radius: 12px;
+}
+
+.deleteBtn:hover{
+    color: rgb(182, 52, 52);
+    background-color:#ececec;
+}
 
 
 /* MEDIA QUERIES */
