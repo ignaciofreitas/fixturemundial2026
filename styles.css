@@ -299,7 +299,7 @@ main .hero .hero-image {
 
 .matches-title {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
 }
 
 .matches-container {
@@ -480,6 +480,7 @@ input[type="number"]::-webkit-inner-spin-button {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 3%;
     }
 
     .match {
