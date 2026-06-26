@@ -320,60 +320,84 @@ main .hero .hero-image {
     background: rgb(29, 38, 53);
     backdrop-filter: blur(20px);
     border-radius: 10px;
-
+    width: 50%;
 }
 
 .match-date {
-    width: 20%;
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .match-time {
-    width: 20%;
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    height: 100%;
 }
 
 .match-rivals {
-    width: 80%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    height: 100%;
+    width: 50%;
 }
 
 .rival1team {
-    width: 25%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+
+    height: 100%;
+
 }
 
 .rival1score {
-    width: 5%;
+    width: 10%;
+
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    height: 100%;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 .rival2team {
-    width: 25%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+
+    height: 100%;
+
+
 }
 
 .rival2score {
-    width: 5%;
+    width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    height: 100%;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -383,7 +407,13 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .save-container {
-    padding-right: 2%;
+    /* padding-right: 2%; */
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .save-container button {
@@ -420,6 +450,21 @@ input[type="number"]::-webkit-inner-spin-button {
     background-color: #ececec;
 }
 
+.matchComplete {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(29, 38, 53);
+}
+
+.matchComplete .match-rivals {
+    width: 80%;
+}
+
+
 
 /* MEDIA QUERIES */
 
@@ -429,6 +474,32 @@ input[type="number"]::-webkit-inner-spin-button {
         margin-right: 10%;
 
     }
+
+    .match {
+        width: 70%;
+    }
+
+
+    .match-time {
+        width: 10%;
+    }
+
+    .rival1team {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        height: 100%;
+
+    }
+
+    .save-container {
+
+        width: 15%;
+
+    }
+
 }
 
 @media only screen and (max-width:1000px) {
@@ -485,7 +556,6 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .match {
         width: 100%;
-        padding: 4%;
 
     }
 
@@ -507,28 +577,29 @@ input[type="number"]::-webkit-inner-spin-button {
         height: 100%;
         width: 65%;
         justify-content: start;
+
     }
 
     .rival1team {
         font-size: .9rem;
-        width: 40%;
+        width: 35%;
         height: 100%;
     }
 
     .rival1score {
-        font-size: .9rem;
-        width: 10%;
+        font-size: 2rem;
+        width: 15%;
     }
 
     .rival2team {
         font-size: .9rem;
-        width: 40%;
+        width: 35%;
         height: 100%;
     }
 
     .rival2score {
-        font-size: .9rem;
-        width: 10%;
+        font-size: 2rem;
+        width: 15%;
     }
 
     .save-container {
@@ -582,51 +653,57 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .match {
         width: 100%;
-        height: 150px;
+        height: 200px;
         flex-direction: column;
     }
 
     .match-date {
         font-size: .9rem;
-        height: 25%;
         width: 100%;
+        height: 20%;
+
     }
 
     .match-time {
         font-size: .9rem;
         width: 100%;
-        height: 25%;
+        height: 20%;
+
 
     }
+
 
     .match-rivals {
         font-size: .9rem;
-        height: 25%;
+        height: 20%;
         width: 100%;
         justify-content: start;
         margin-bottom: 3%;
+
     }
 
     .rival1team {
-        font-size: .9rem;
+        font-size: 1rem;
+        text-align: center;
         width: 35%;
         height: 100%;
     }
 
     .rival1score {
         font-size: .9rem;
-        width: 10%;
+        width: 15%;
     }
 
     .rival2team {
-        font-size: .9rem;
+        font-size: 1rem;
         width: 35%;
         height: 100%;
+        text-align: center;
     }
 
     .rival2score {
         font-size: .9rem;
-        width: 10%;
+        width: 15%;
     }
 
     .save-container {
@@ -634,8 +711,19 @@ input[type="number"]::-webkit-inner-spin-button {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 25%;
+        height: 20%;
     }
 
+
+
+}
+
+@media only screen and (max-width:400px) {
+
+    .rival1team,
+    .rival2team {
+        font-size: .7rem;
+
+    }
 
 }
