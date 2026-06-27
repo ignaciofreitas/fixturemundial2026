@@ -193,13 +193,153 @@ const twentyTwoTeam = document.getElementById('22');
 const twentyThreeTeam = document.getElementById('23');
 const twentyFourTeam = document.getElementById('24');
 
-//--------------------------------------------------------------------------------BOTON PARA BORRAR EL LOCAL STORAGE Y REINICIAR -------------------------------------------//
+//--GRUPO G --//
+
+//CARD PARTIDO 37//
+const scoreTeam73 = document.getElementById("scoreteam73");
+const scoreTeam74 = document.getElementById("scoreteam74");
+const saveBtn37 = document.getElementById("btn37")
+//CARD PARTIDO 38//
+const scoreTeam75 = document.getElementById("scoreteam75");
+const scoreTeam76 = document.getElementById("scoreteam76");
+const saveBtn38 = document.getElementById("btn38")
+//CARD PARTIDO 39//
+const scoreTeam77 = document.getElementById("scoreteam77");
+const scoreTeam78 = document.getElementById("scoreteam78");
+const saveBtn39 = document.getElementById("btn39")
+//CARD PARTIDO 40//
+const scoreTeam79 = document.getElementById("scoreteam79");
+const scoreTeam80 = document.getElementById("scoreteam80");
+const saveBtn40 = document.getElementById("btn40")
+//CARD PARTIDO 41//
+const scoreTeam81 = document.getElementById("scoreteam81");
+const scoreTeam82 = document.getElementById("scoreteam82");
+const saveBtn41 = document.getElementById("btn41")
+//CARD PARTIDO 42//
+const scoreTeam83 = document.getElementById("scoreteam83");
+const scoreTeam84 = document.getElementById("scoreteam84");
+const saveBtn42 = document.getElementById("btn42")
+//ACTUALIZACION DE PUESTOS ENTRE LOS EQUIPOS--GRUPO D //
+const twentyFiveTeam = document.getElementById('25');
+const twentySixTeam = document.getElementById('26');
+const twentySevenTeam = document.getElementById('27');
+const twentyEightTeam = document.getElementById('28');
+
+//--GRUPO H --//
+
+//CARD PARTIDO 43//
+const scoreTeam85 = document.getElementById("scoreteam85");
+const scoreTeam86 = document.getElementById("scoreteam86");
+const saveBtn43 = document.getElementById("btn43")
+//CARD PARTIDO 44//
+const scoreTeam87 = document.getElementById("scoreteam87");
+const scoreTeam88 = document.getElementById("scoreteam88");
+const saveBtn44 = document.getElementById("btn44")
+//CARD PARTIDO 45//
+const scoreTeam89 = document.getElementById("scoreteam89");
+const scoreTeam90 = document.getElementById("scoreteam90");
+const saveBtn45 = document.getElementById("btn45")
+//CARD PARTIDO 46//
+const scoreTeam91 = document.getElementById("scoreteam91");
+const scoreTeam92 = document.getElementById("scoreteam92");
+const saveBtn46 = document.getElementById("btn46")
+//CARD PARTIDO 47//
+const scoreTeam93 = document.getElementById("scoreteam93");
+const scoreTeam94 = document.getElementById("scoreteam94");
+const saveBtn47 = document.getElementById("btn47")
+//CARD PARTIDO 48//
+const scoreTeam95 = document.getElementById("scoreteam95");
+const scoreTeam96 = document.getElementById("scoreteam96");
+const saveBtn48 = document.getElementById("btn48")
+//ACTUALIZACION DE PUESTOS ENTRE LOS EQUIPOS--GRUPO D //
+const twentyNineTeam = document.getElementById('29');
+const thirtyTeam = document.getElementById('30');
+const thirtyOneTeam = document.getElementById('31');
+const thirtyTwoTeam = document.getElementById('32');
+
+//--GRUPO I --//
+
+//CARD PARTIDO 49//
+const scoreTeam97 = document.getElementById("scoreteam97");
+const scoreTeam98 = document.getElementById("scoreteam98");
+const saveBtn49 = document.getElementById("btn49")
+//CARD PARTIDO 50//
+const scoreTeam99 = document.getElementById("scoreteam99");
+const scoreTeam100 = document.getElementById("scoreteam100");
+const saveBtn50 = document.getElementById("btn50")
+//CARD PARTIDO 51//
+const scoreTeam101 = document.getElementById("scoreteam101");
+const scoreTeam102 = document.getElementById("scoreteam102");
+const saveBtn51 = document.getElementById("btn51")
+//CARD PARTIDO 52//
+const scoreTeam103 = document.getElementById("scoreteam103");
+const scoreTeam104 = document.getElementById("scoreteam104");
+const saveBtn52 = document.getElementById("btn52")
+//CARD PARTIDO 53//
+const scoreTeam105 = document.getElementById("scoreteam105");
+const scoreTeam106 = document.getElementById("scoreteam106");
+const saveBtn53 = document.getElementById("btn53")
+//CARD PARTIDO 54//
+const scoreTeam107 = document.getElementById("scoreteam107");
+const scoreTeam108 = document.getElementById("scoreteam108");
+const saveBtn54 = document.getElementById("btn54")
+//ACTUALIZACION DE PUESTOS ENTRE LOS EQUIPOS--GRUPO D //
+const thirtyThreeTeam = document.getElementById('33');
+const thirtyFourTeam = document.getElementById('34');
+const thirtyFiveTeam = document.getElementById('35');
+const thirtySixTeam = document.getElementById('36');
+
 const deleteAll = document.getElementById("deleteBtn")
 
 deleteAll.addEventListener("click", function (e) {
     e.preventDefault();
     localStorage.clear()
 
+})
+
+//--------------------------------------------------------------------------------BOTON PARA BORRAR EL LOCAL STORAGE Y REINICIAR CADA GRUPO-------------------------------------------//
+
+const deleteGroupA = document.getElementById("deleteBtnGroupA")
+const deleteGroupB = document.getElementById("deleteBtnGroupB")
+const deleteGroupC = document.getElementById("deleteBtnGroupC")
+const deleteGroupD = document.getElementById("deleteBtnGroupD")
+const deleteGroupE = document.getElementById("deleteBtnGroupE")
+const deleteGroupF = document.getElementById("deleteBtnGroupF")
+const deleteGroupG = document.getElementById("deleteBtnGroupG")
+const deleteGroupH = document.getElementById("deleteBtnGroupH")
+const deleteGroupI = document.getElementById("deleteBtnGroupI")
+const deleteGroupJ = document.getElementById("deleteBtnGroupJ")
+const deleteGroupK = document.getElementById("deleteBtnGroupK")
+const deleteGroupL = document.getElementById("deleteBtnGroupL")
+
+
+
+deleteGroupA.addEventListener("click", function (e) {
+    e.preventDefault();
+    localStorage.removeItem("mexicoSavedStats");
+    localStorage.removeItem("coreaSavedStats");
+    localStorage.removeItem("chequiaSavedStats");
+    localStorage.removeItem("sudafricaSavedStats");
+    localStorage.removeItem("resultlMatch1");
+    localStorage.removeItem("resultlMatch2");
+    localStorage.removeItem("resultlMatch3");
+    localStorage.removeItem("resultlMatch4");
+    localStorage.removeItem("resultlMatch5");
+    localStorage.removeItem("resultlMatch6");
+})
+
+deleteGroupB.addEventListener("click", function (e) {
+    e.preventDefault();
+    localStorage.removeItem("canadaSavedStats");
+    localStorage.removeItem("bosniaSavedStats");
+    localStorage.removeItem("catarSavedStats");
+    localStorage.removeItem("suizaSavedStats");
+    localStorage.removeItem("resultlMatch7");
+    localStorage.removeItem("resultlMatch8");
+    localStorage.removeItem("resultlMatch9");
+    localStorage.removeItem("resultlMatch10");
+    localStorage.removeItem("resultlMatch11");
+    localStorage.removeItem("resultlMatch12");
 })
 
 //--------------------------------------------------------------------------------FUNCION PARA RECARGAR EL LOCAL STORAGE COMPLETO --------------------------------------------//
@@ -1525,6 +1665,550 @@ document.addEventListener("DOMContentLoaded", function () {
         twentyFourTeam.innerHTML = tunezUpdatedIndex
     }
 
+    //GRUPO G
+
+    const raw37 = localStorage.getItem('resultlMatch37');
+    const raw38 = localStorage.getItem('resultlMatch38');
+    const raw39 = localStorage.getItem('resultlMatch39');
+    const raw40 = localStorage.getItem('resultlMatch40');
+    const raw41 = localStorage.getItem('resultlMatch41');
+    const raw42 = localStorage.getItem('resultlMatch42');
+
+    if (raw37) {
+        const match37 = JSON.parse(raw37);
+        if (match37.belgica !== 0 && match37.egipto !== 0) {
+            loadFromLocal37();
+        }
+
+    }
+
+    if (raw38) {
+        const match38 = JSON.parse(raw38);
+        if (match38.iran !== 0 && match38.nuevazelanda !== 0) {
+            loadFromLocal38();
+        }
+    }
+
+    if (raw39) {
+        const match39 = JSON.parse(raw39);
+        if (match39.belgica !== 0 && match39.iran !== 0) {
+            loadFromLocal39();
+        }
+    }
+
+    if (raw40) {
+        const match40 = JSON.parse(raw40);
+        if (match40.nuevazelanda !== 0 && match40.egipto !== 0) {
+            loadFromLocal40();
+        }
+    }
+
+    if (raw41) {
+        const match41 = JSON.parse(raw41);
+        if (match41.nuevazelanda !== 0 && match41.belgica !== 0) {
+            loadFromLocal41();
+        }
+    }
+
+    if (raw42) {
+        const match42 = JSON.parse(raw42);
+        if (match42.egipto !== 0 && match42.iran !== 0) {
+            loadFromLocal42();
+        }
+    }
+
+    const keys7 = [
+        'belgicaSavedStats',
+        'egiptoSavedStats',
+        'iranSavedStats',
+        'nuevazelandaSavedStats'
+    ];
+
+    const items7 = keys7.map(k => {
+        const raw7 = localStorage.getItem(k);
+        return raw7 ? { key: k, obj: JSON.parse(raw7) } : null;
+    }).filter(Boolean);
+
+    // Ordenar por pts desc, luego dg desc
+    items7.sort((a, b) => {
+        if (b.obj.pts !== a.obj.pts) return b.obj.pts - a.obj.pts;
+        return b.obj.dg - a.obj.dg;
+
+    });
+
+
+    // Actualizar index y guardar en su clave original
+    items7.forEach((entry, i) => {
+        entry.obj.index = i + 1;
+        localStorage.setItem(entry.key, JSON.stringify(entry.obj));
+    });
+
+    //------------------------------------------------------------------------------- ACTUALIZACION DE PUESTOS DENTRO DEL GRUPO ---------------------------------------------------//
+
+    const belgicaUpdatedIndex = `
+                                    <p class="country">
+                                        <span><img src="images/belgica-bandera.png" alt="usa"></span>${belgicaStats.country}
+                                    </p>
+                                    <p class="matches" id="belgica-playedGames">${belgicaStats.pj}</p>
+                                    <div class="matches" id="belgica-wonGames">${belgicaStats.pg}</div>
+                                    <div class="matches" id="belgica-drawGames">${belgicaStats.pe}</div>
+                                    <div class="matches" id="belgica-lostGames">${belgicaStats.pp}</div>
+                                    <div class="matches" id="belgica-goalDifference">${belgicaStats.dg}</div>
+                                    <div class="points" id="belgica-points">${belgicaStats.pts}</div>
+                                `
+
+    const egiptoUpdatedIndex = `
+                                    <p class="country">
+                                    <span><img src="images/egipto-bandera.png" alt="paraguay"></span>${egiptoStats.country}
+                                    </p>
+                                    <p class="matches" id="egipto-playedGames">${egiptoStats.pj}</p>
+                                    <div class="matches" id="egipto-wonGames">${egiptoStats.pg}</div>
+                                    <div class="matches" id="egipto-drawGames">${egiptoStats.pe}</div>
+                                    <div class="matches" id="egipto-lostGames">${egiptoStats.pp}</div>
+                                    <div class="matches" id="egipto-goalDifference">${egiptoStats.dg}</div>
+                                    <div class="points" id="egipto-points">${egiptoStats.pts}</div>
+                                `
+
+    const iranUpdatedIndex = `
+                                    <p class="country">
+                                        <span><img src="images/iran-bandera.png" alt="australia"></span>${iranStats.country}
+                                    </p>
+                                    <p class="matches" id="iran-playedGames">${iranStats.pj}</p>
+                                    <div class="matches" id="iran-wonGames">${iranStats.pg}</div>
+                                    <div class="matches" id="iran-drawGames">${iranStats.pe}</div>
+                                    <div class="matches" id="iran-lostGames">${iranStats.pp}</div>
+                                    <div class="matches" id="iran-goalDifference">${iranStats.dg}</div>
+                                    <div class="points" id="iran-points">${iranStats.pts}</div>
+                                `
+
+    const nuevazelandaUpdatedIndex = `
+                                    <p class="country">
+                                        <span><img src="images/nuevazelanda-bandera.png" alt="turquia"></span>${nuevazelandaStats.country}
+                                    </p>
+                                    <p class="matches" id="nuevazelanda-playedGames">${nuevazelandaStats.pj}</p>
+                                    <div class="matches" id="nuevazelanda-wonGames">${nuevazelandaStats.pg}</div>
+                                    <div class="matches" id="nuevazelanda-drawGames">${nuevazelandaStats.pe}</div>
+                                    <div class="matches" id="nuevazelanda-lostGames">${nuevazelandaStats.pp}</div>
+                                    <div class="matches" id="nuevazelanda-goalDifference">${nuevazelandaStats.dg}</div>
+                                    <div class="points" id="nuevazelanda-points">${nuevazelandaStats.pts}</div>
+                                `
+
+
+    if (belgicaStats.index === 1) {
+        twentyFiveTeam.innerHTML = belgicaUpdatedIndex
+    }
+    else if (egiptoStats.index === 1) {
+        twentyFiveTeam.innerHTML = egiptoUpdatedIndex
+    }
+    else if (iranStats.index === 1) {
+        twentyFiveTeam.innerHTML = iranUpdatedIndex
+    }
+    else if (nuevazelandaStats.index === 1) {
+        twentyFiveTeam.innerHTML = nuevazelandaUpdatedIndex
+    }
+
+    if (belgicaStats.index === 2) {
+        twentySixTeam.innerHTML = belgicaUpdatedIndex
+    }
+    else if (egiptoStats.index === 2) {
+        twentySixTeam.innerHTML = egiptoUpdatedIndex
+    }
+    else if (iranStats.index === 2) {
+        twentySixTeam.innerHTML = iranUpdatedIndex
+    }
+    else if (nuevazelandaStats.index === 2) {
+        twentySixTeam.innerHTML = nuevazelandaUpdatedIndex
+    }
+
+    if (belgicaStats.index === 3) {
+        twentySevenTeam.innerHTML = belgicaUpdatedIndex
+    }
+    else if (egiptoStats.index === 3) {
+        twentySevenTeam.innerHTML = egiptoUpdatedIndex
+    }
+    else if (iranStats.index === 3) {
+        twentySevenTeam.innerHTML = iranUpdatedIndex
+    }
+    else if (nuevazelandaStats.index === 3) {
+        twentySevenTeam.innerHTML = nuevazelandaUpdatedIndex
+    }
+
+    if (belgicaStats.index === 4) {
+        twentyEightTeam.innerHTML = belgicaUpdatedIndex
+    }
+    else if (egiptoStats.index === 4) {
+        twentyEightTeam.innerHTML = egiptoUpdatedIndex
+    }
+    else if (iranStats.index === 4) {
+        twentyEightTeam.innerHTML = iranUpdatedIndex
+    }
+    else if (nuevazelandaStats.index === 4) {
+        twentyEightTeam.innerHTML = nuevazelandaUpdatedIndex
+    }
+
+    //GRUPO H
+
+    const raw43 = localStorage.getItem('resultlMatch43');
+    const raw44 = localStorage.getItem('resultlMatch44');
+    const raw45 = localStorage.getItem('resultlMatch45');
+    const raw46 = localStorage.getItem('resultlMatch46');
+    const raw47 = localStorage.getItem('resultlMatch47');
+    const raw48 = localStorage.getItem('resultlMatch48');
+
+    if (raw43) {
+        const match43 = JSON.parse(raw43);
+        if (match43.espana !== 0 && match43.caboverde !== 0) {
+            loadFromLocal43();
+        }
+
+    }
+
+    if (raw44) {
+        const match44 = JSON.parse(raw44);
+        if (match44.arabia !== 0 && match44.uruguay !== 0) {
+            loadFromLocal44();
+        }
+    }
+
+    if (raw45) {
+        const match45 = JSON.parse(raw45);
+        if (match45.espana !== 0 && match45.arabia !== 0) {
+            loadFromLocal45();
+        }
+    }
+
+    if (raw46) {
+        const match46 = JSON.parse(raw46);
+        if (match46.uruguay !== 0 && match46.caboverde !== 0) {
+            loadFromLocal46();
+        }
+    }
+
+    if (raw47) {
+        const match47 = JSON.parse(raw47);
+        if (match47.caboverde !== 0 && match47.arabia !== 0) {
+            loadFromLocal47();
+        }
+    }
+
+    if (raw48) {
+        const match48 = JSON.parse(raw48);
+        if (match48.uruguay !== 0 && match48.espana !== 0) {
+            loadFromLocal48();
+        }
+    }
+
+    const keys8 = [
+        'espanaSavedStats',
+        'caboverdeSavedStats',
+        'arabiaSavedStats',
+        'uruguaySavedStats'
+    ];
+
+    const items8 = keys8.map(k => {
+        const raw8 = localStorage.getItem(k);
+        return raw8 ? { key: k, obj: JSON.parse(raw8) } : null;
+    }).filter(Boolean);
+
+    // Ordenar por pts desc, luego dg desc
+    items8.sort((a, b) => {
+        if (b.obj.pts !== a.obj.pts) return b.obj.pts - a.obj.pts;
+        return b.obj.dg - a.obj.dg;
+
+    });
+
+
+    // Actualizar index y guardar en su clave original
+    items8.forEach((entry, i) => {
+        entry.obj.index = i + 1;
+        localStorage.setItem(entry.key, JSON.stringify(entry.obj));
+    });
+
+    //------------------------------------------------------------------------------- ACTUALIZACION DE PUESTOS DENTRO DEL GRUPO ---------------------------------------------------//
+
+    const espanaUpdatedIndex = `
+                                    <p class="country">
+                                        <span><img src="images/espana-bandera.png" alt="usa"></span>${espanaStats.country}
+                                    </p>
+                                    <p class="matches" id="belgica-playedGames">${espanaStats.pj}</p>
+                                    <div class="matches" id="belgica-wonGames">${espanaStats.pg}</div>
+                                    <div class="matches" id="belgica-drawGames">${espanaStats.pe}</div>
+                                    <div class="matches" id="belgica-lostGames">${espanaStats.pp}</div>
+                                    <div class="matches" id="belgica-goalDifference">${espanaStats.dg}</div>
+                                    <div class="points" id="belgica-points">${espanaStats.pts}</div>
+                                `
+
+    const caboverdeUpdatedIndex = `
+                                    <p class="country">
+                                    <span><img src="images/caboverde-bandera.png" alt="paraguay"></span>${caboverdeStats.country}
+                                    </p>
+                                    <p class="matches" id="egipto-playedGames">${caboverdeStats.pj}</p>
+                                    <div class="matches" id="egipto-wonGames">${caboverdeStats.pg}</div>
+                                    <div class="matches" id="egipto-drawGames">${caboverdeStats.pe}</div>
+                                    <div class="matches" id="egipto-lostGames">${caboverdeStats.pp}</div>
+                                    <div class="matches" id="egipto-goalDifference">${caboverdeStats.dg}</div>
+                                    <div class="points" id="egipto-points">${caboverdeStats.pts}</div>
+                                `
+
+    const arabiaUpdatedIndex = `
+                                    <p class="country">
+                                        <span><img src="images/arabia-bandera.png" alt="australia"></span>${arabiaStats.country}
+                                    </p>
+                                    <p class="matches" id="iran-playedGames">${arabiaStats.pj}</p>
+                                    <div class="matches" id="iran-wonGames">${arabiaStats.pg}</div>
+                                    <div class="matches" id="iran-drawGames">${arabiaStats.pe}</div>
+                                    <div class="matches" id="iran-lostGames">${arabiaStats.pp}</div>
+                                    <div class="matches" id="iran-goalDifference">${arabiaStats.dg}</div>
+                                    <div class="points" id="iran-points">${arabiaStats.pts}</div>
+                                `
+
+    const uruguayUpdatedIndex = `
+                                    <p class="country">
+                                        <span><img src="images/uruguay-bandera.png" alt="turquia"></span>${uruguayStats.country}
+                                    </p>
+                                    <p class="matches" id="nuevazelanda-playedGames">${uruguayStats.pj}</p>
+                                    <div class="matches" id="nuevazelanda-wonGames">${uruguayStats.pg}</div>
+                                    <div class="matches" id="nuevazelanda-drawGames">${uruguayStats.pe}</div>
+                                    <div class="matches" id="nuevazelanda-lostGames">${uruguayStats.pp}</div>
+                                    <div class="matches" id="nuevazelanda-goalDifference">${uruguayStats.dg}</div>
+                                    <div class="points" id="nuevazelanda-points">${uruguayStats.pts}</div>
+                                `
+
+
+    if (espanaStats.index === 1) {
+        twentyNineTeam.innerHTML = espanaUpdatedIndex
+    }
+    else if (caboverdeStats.index === 1) {
+        twentyNineTeam.innerHTML = caboverdeUpdatedIndex
+    }
+    else if (arabiaStats.index === 1) {
+        twentyNineTeam.innerHTML = arabiaUpdatedIndex
+    }
+    else if (uruguayStats.index === 1) {
+        twentyNineTeam.innerHTML = uruguayUpdatedIndex
+    }
+
+    if (espanaStats.index === 2) {
+        thirtyTeam.innerHTML = espanaUpdatedIndex
+    }
+    else if (caboverdeStats.index === 2) {
+        thirtyTeam.innerHTML = caboverdeUpdatedIndex
+    }
+    else if (arabiaStats.index === 2) {
+        thirtyTeam.innerHTML = arabiaUpdatedIndex
+    }
+    else if (uruguayStats.index === 2) {
+        thirtyTeam.innerHTML = uruguayUpdatedIndex
+    }
+
+    if (espanaStats.index === 3) {
+        thirtyOneTeam.innerHTML = espanaUpdatedIndex
+    }
+    else if (caboverdeStats.index === 3) {
+        thirtyOneTeam.innerHTML = caboverdeUpdatedIndex
+    }
+    else if (arabiaStats.index === 3) {
+        thirtyOneTeam.innerHTML = arabiaUpdatedIndex
+    }
+    else if (uruguayStats.index === 3) {
+        thirtyOneTeam.innerHTML = uruguayUpdatedIndex
+    }
+
+    if (espanaStats.index === 4) {
+        thirtyTwoTeam.innerHTML = espanaUpdatedIndex
+    }
+    else if (caboverdeStats.index === 4) {
+        thirtyTwoTeam.innerHTML = caboverdeUpdatedIndex
+    }
+    else if (arabiaStats.index === 4) {
+        thirtyTwoTeam.innerHTML = arabiaUpdatedIndex
+    }
+    else if (uruguayStats.index === 4) {
+        thirtyTwoTeam.innerHTML = uruguayUpdatedIndex
+    }
+
+    //GRUPO I
+
+    const raw49 = localStorage.getItem('resultlMatch49');
+    const raw50 = localStorage.getItem('resultlMatch50');
+    const raw51 = localStorage.getItem('resultlMatch51');
+    const raw52 = localStorage.getItem('resultlMatch52');
+    const raw53 = localStorage.getItem('resultlMatch53');
+    const raw54 = localStorage.getItem('resultlMatch54');
+
+    if (raw49) {
+        const match49 = JSON.parse(raw49);
+        if (match49.francia !== 0 && match49.senegal !== 0) {
+            loadFromLocal49();
+        }
+
+    }
+
+    if (raw50) {
+        const match50 = JSON.parse(raw50);
+        if (match50.irak !== 0 && match50.noruega !== 0) {
+            loadFromLocal50();
+        }
+    }
+
+    if (raw51) {
+        const match51 = JSON.parse(raw51);
+        if (match51.francia !== 0 && match51.irak !== 0) {
+            loadFromLocal51();
+        }
+    }
+
+    if (raw52) {
+        const match52 = JSON.parse(raw52);
+        if (match52.noruega !== 0 && match52.senegal !== 0) {
+            loadFromLocal52();
+        }
+    }
+
+    if (raw53) {
+        const match53 = JSON.parse(raw53);
+        if (match53.noruega !== 0 && match53.francia !== 0) {
+            loadFromLocal53();
+        }
+    }
+
+    if (raw54) {
+        const match54 = JSON.parse(raw54);
+        if (match54.senegal !== 0 && match54.irak !== 0) {
+            loadFromLocal54();
+        }
+    }
+
+    const keys9 = [
+        'franciaSavedStats',
+        'senegalSavedStats',
+        'irakSavedStats',
+        'noruegaSavedStats'
+    ];
+
+    const items9 = keys9.map(k => {
+        const raw9 = localStorage.getItem(k);
+        return raw9 ? { key: k, obj: JSON.parse(raw9) } : null;
+    }).filter(Boolean);
+
+    // Ordenar por pts desc, luego dg desc
+    items9.sort((a, b) => {
+        if (b.obj.pts !== a.obj.pts) return b.obj.pts - a.obj.pts;
+        return b.obj.dg - a.obj.dg;
+
+    });
+
+
+    // Actualizar index y guardar en su clave original
+    items9.forEach((entry, i) => {
+        entry.obj.index = i + 1;
+        localStorage.setItem(entry.key, JSON.stringify(entry.obj));
+    });
+
+    //------------------------------------------------------------------------------- ACTUALIZACION DE PUESTOS DENTRO DEL GRUPO ---------------------------------------------------//
+
+    const franciaUpdatedIndex = `
+                                    <p class="country">
+                                        <span><img src="images/francia-bandera.png" alt="usa"></span>${franciaStats.country}
+                                    </p>
+                                    <p class="matches" id="belgica-playedGames">${franciaStats.pj}</p>
+                                    <div class="matches" id="belgica-wonGames">${franciaStats.pg}</div>
+                                    <div class="matches" id="belgica-drawGames">${franciaStats.pe}</div>
+                                    <div class="matches" id="belgica-lostGames">${franciaStats.pp}</div>
+                                    <div class="matches" id="belgica-goalDifference">${franciaStats.dg}</div>
+                                    <div class="points" id="belgica-points">${franciaStats.pts}</div>
+                                `
+
+    const senegalUpdatedIndex = `
+                                    <p class="country">
+                                    <span><img src="images/senegal-bandera.png" alt="paraguay"></span>${senegalStats.country}
+                                    </p>
+                                    <p class="matches" id="egipto-playedGames">${senegalStats.pj}</p>
+                                    <div class="matches" id="egipto-wonGames">${senegalStats.pg}</div>
+                                    <div class="matches" id="egipto-drawGames">${senegalStats.pe}</div>
+                                    <div class="matches" id="egipto-lostGames">${senegalStats.pp}</div>
+                                    <div class="matches" id="egipto-goalDifference">${senegalStats.dg}</div>
+                                    <div class="points" id="egipto-points">${senegalStats.pts}</div>
+                                `
+
+    const irakUpdatedIndex = `
+                                    <p class="country">
+                                        <span><img src="images/irak-bandera.png" alt="irak"></span>${irakStats.country}
+                                    </p>
+                                    <p class="matches" id="iran-playedGames">${irakStats.pj}</p>
+                                    <div class="matches" id="iran-wonGames">${irakStats.pg}</div>
+                                    <div class="matches" id="iran-drawGames">${irakStats.pe}</div>
+                                    <div class="matches" id="iran-lostGames">${irakStats.pp}</div>
+                                    <div class="matches" id="iran-goalDifference">${irakStats.dg}</div>
+                                    <div class="points" id="iran-points">${irakStats.pts}</div>
+                                `
+
+    const noruegaUpdatedIndex = `
+                                    <p class="country">
+                                        <span><img src="images/noruega-bandera.png" alt="noruega"></span>${noruegaStats.country}
+                                    </p>
+                                    <p class="matches" id="nuevazelanda-playedGames">${noruegaStats.pj}</p>
+                                    <div class="matches" id="nuevazelanda-wonGames">${noruegaStats.pg}</div>
+                                    <div class="matches" id="nuevazelanda-drawGames">${noruegaStats.pe}</div>
+                                    <div class="matches" id="nuevazelanda-lostGames">${noruegaStats.pp}</div>
+                                    <div class="matches" id="nuevazelanda-goalDifference">${noruegaStats.dg}</div>
+                                    <div class="points" id="nuevazelanda-points">${noruegaStats.pts}</div>
+                                `
+
+    if (franciaStats.index === 1) {
+        thirtyThreeTeam.innerHTML = franciaUpdatedIndex
+    }
+    else if (senegalStats.index === 1) {
+        thirtyThreeTeam.innerHTML = senegalUpdatedIndex
+    }
+    else if (irakStats.index === 1) {
+        thirtyThreeTeam.innerHTML = irakUpdatedIndex
+    }
+    else if (noruegaStats.index === 1) {
+        thirtyThreeTeam.innerHTML = noruegaUpdatedIndex
+    }
+
+    if (franciaStats.index === 2) {
+        thirtyFourTeam.innerHTML = franciaUpdatedIndex
+    }
+    else if (senegalStats.index === 2) {
+        thirtyFourTeam.innerHTML = senegalUpdatedIndex
+    }
+    else if (irakStats.index === 2) {
+        thirtyFourTeam.innerHTML = irakUpdatedIndex
+    }
+    else if (noruegaStats.index === 2) {
+        thirtyFourTeam.innerHTML = noruegaUpdatedIndex
+    }
+
+    if (franciaStats.index === 3) {
+        thirtyFiveTeam.innerHTML = franciaUpdatedIndex
+    }
+    else if (senegalStats.index === 3) {
+        thirtyFiveTeam.innerHTML = senegalUpdatedIndex
+    }
+    else if (irakStats.index === 3) {
+        thirtyFiveTeam.innerHTML = irakUpdatedIndex
+    }
+    else if (noruegaStats.index === 3) {
+        thirtyFiveTeam.innerHTML = noruegaUpdatedIndex
+    }
+
+    if (franciaStats.index === 4) {
+        thirtySixTeam.innerHTML = franciaUpdatedIndex
+    }
+    else if (senegalStats.index === 4) {
+        thirtySixTeam.innerHTML = senegalUpdatedIndex
+    }
+    else if (irakStats.index === 4) {
+        thirtySixTeam.innerHTML = irakUpdatedIndex
+    }
+    else if (noruegaStats.index === 4) {
+        thirtySixTeam.innerHTML = noruegaUpdatedIndex
+    }
+
+
+
 });
 
 //------------------------------------------------------------------------------- STATS DE LOS EQUIPOS DE CADA GRUPO ----------------------------------------------------------//
@@ -1973,6 +2657,229 @@ let tunezStats = {
     "pts": 0
 }
 
+//GRUPO G
+
+const belgicaPlayedGames = document.getElementById("belgica-playedGames")
+const belgicaWonGames = document.getElementById("belgica-wonGames")
+const belgicaDrawGames = document.getElementById("belgica-drawGames")
+const belgicaLostGames = document.getElementById("belgica-lostGames")
+const belgicaGoalDifference = document.getElementById("belgica-goalDifference")
+const belgicaPoints = document.getElementById("belgica-points")
+
+let belgicaStats = {
+    "index": 25,
+    "country": "bélgica",
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "dg": 0,
+    "pts": 0
+}
+
+const egiptoPlayedGames = document.getElementById("egipto-playedGames")
+const egiptoWonGames = document.getElementById("egipto-wonGames")
+const egiptoDrawGames = document.getElementById("egipto-drawGames")
+const egiptoLostGames = document.getElementById("egipto-lostGames")
+const egiptoGoalDifference = document.getElementById("egipto-goalDifference")
+const egiptoPoints = document.getElementById("egipto-points")
+
+let egiptoStats = {
+    "index": 26,
+    "country": "egipto",
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "dg": 0,
+    "pts": 0
+}
+
+const iranPlayedGames = document.getElementById("iran-playedGames")
+const iranWonGames = document.getElementById("iran-wonGames")
+const iranDrawGames = document.getElementById("iran-drawGames")
+const iranLostGames = document.getElementById("iran-lostGames")
+const iranGoalDifference = document.getElementById("iran-goalDifference")
+const iranPoints = document.getElementById("iran-points")
+
+let iranStats = {
+    "index": 27,
+    "country": "irán",
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "dg": 0,
+    "pts": 0
+}
+
+const nuevazelandaPlayedGames = document.getElementById("nuevazelanda-playedGames")
+const nuevazelandaWonGames = document.getElementById("nuevazelanda-wonGames")
+const nuevazelandaDrawGames = document.getElementById("nuevazelanda-drawGames")
+const nuevazelandaLostGames = document.getElementById("nuevazelanda-lostGames")
+const nuevazelandaGoalDifference = document.getElementById("nuevazelanda-goalDifference")
+const nuevazelandaPoints = document.getElementById("nuevazelanda-points")
+
+let nuevazelandaStats = {
+    "index": 28,
+    "country": "nueva zelanda",
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "dg": 0,
+    "pts": 0
+}
+
+//GRUPO H
+
+const espanaPlayedGames = document.getElementById("espana-playedGames")
+const espanaWonGames = document.getElementById("espana-wonGames")
+const espanaDrawGames = document.getElementById("espana-drawGames")
+const espanaLostGames = document.getElementById("espana-lostGames")
+const espanaGoalDifference = document.getElementById("espana-goalDifference")
+const espanaPoints = document.getElementById("espana-points")
+
+let espanaStats = {
+    "index": 29,
+    "country": "españa",
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "dg": 0,
+    "pts": 0
+}
+
+const caboverdePlayedGames = document.getElementById("caboverde-playedGames")
+const caboverdeWonGames = document.getElementById("caboverde-wonGames")
+const caboverdeDrawGames = document.getElementById("caboverde-drawGames")
+const caboverdeLostGames = document.getElementById("caboverde-lostGames")
+const caboverdeGoalDifference = document.getElementById("caboverde-goalDifference")
+const caboverdePoints = document.getElementById("caboverde-points")
+
+let caboverdeStats = {
+    "index": 30,
+    "country": "cabo verde",
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "dg": 0,
+    "pts": 0
+}
+
+const arabiaPlayedGames = document.getElementById("arabia-playedGames")
+const arabiaWonGames = document.getElementById("arabia-wonGames")
+const arabiaDrawGames = document.getElementById("arabia-drawGames")
+const arabiaLostGames = document.getElementById("arabia-lostGames")
+const arabiaGoalDifference = document.getElementById("arabia-goalDifference")
+const arabiaPoints = document.getElementById("arabia-points")
+
+let arabiaStats = {
+    "index": 31,
+    "country": "arabia saudita",
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "dg": 0,
+    "pts": 0
+}
+
+const uruguayPlayedGames = document.getElementById("uruguay-playedGames")
+const uruguayWonGames = document.getElementById("uruguay-wonGames")
+const uruguayDrawGames = document.getElementById("uruguay-drawGames")
+const uruguayLostGames = document.getElementById("uruguay-lostGames")
+const uruguayGoalDifference = document.getElementById("uruguay-goalDifference")
+const uruguayPoints = document.getElementById("uruguay-points")
+
+let uruguayStats = {
+    "index": 32,
+    "country": "uruguay",
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "dg": 0,
+    "pts": 0
+}
+
+//GRUPO I
+
+const franciaPlayedGames = document.getElementById("francia-playedGames")
+const franciaWonGames = document.getElementById("francia-wonGames")
+const franciaDrawGames = document.getElementById("francia-drawGames")
+const franciaLostGames = document.getElementById("francia-lostGames")
+const franciaGoalDifference = document.getElementById("francia-goalDifference")
+const franciaPoints = document.getElementById("francia-points")
+
+let franciaStats = {
+    "index": 33,
+    "country": "francia",
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "dg": 0,
+    "pts": 0
+}
+
+const senegalPlayedGames = document.getElementById("senegal-playedGames")
+const senegalWonGames = document.getElementById("senegal-wonGames")
+const senegalDrawGames = document.getElementById("senegal-drawGames")
+const senegalLostGames = document.getElementById("senegal-lostGames")
+const senegalGoalDifference = document.getElementById("senegal-goalDifference")
+const senegalPoints = document.getElementById("senegal-points")
+
+let senegalStats = {
+    "index": 34,
+    "country": "senegal",
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "dg": 0,
+    "pts": 0
+}
+
+const irakPlayedGames = document.getElementById("irak-playedGames")
+const irakWonGames = document.getElementById("irak-wonGames")
+const irakDrawGames = document.getElementById("irak-drawGames")
+const irakLostGames = document.getElementById("irak-lostGames")
+const irakGoalDifference = document.getElementById("irak-goalDifference")
+const irakPoints = document.getElementById("irak-points")
+
+let irakStats = {
+    "index": 35,
+    "country": "irak",
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "dg": 0,
+    "pts": 0
+}
+
+const noruegaPlayedGames = document.getElementById("noruega-playedGames")
+const noruegaWonGames = document.getElementById("noruega-wonGames")
+const noruegaDrawGames = document.getElementById("noruega-drawGames")
+const noruegaLostGames = document.getElementById("noruega-lostGames")
+const noruegaGoalDifference = document.getElementById("noruega-goalDifference")
+const noruegaPoints = document.getElementById("noruega-points")
+
+let noruegaStats = {
+    "index": 36,
+    "country": "noruega",
+    "pj": 0,
+    "pg": 0,
+    "pe": 0,
+    "pp": 0,
+    "dg": 0,
+    "pts": 0
+}
+
+
 
 //---------------------------------------------------------------------------------------------- MARCADORES ------------------------------------------------------------------//
 
@@ -2168,6 +3075,102 @@ let resultlMatch35 = {
 let resultlMatch36 = {
     "japon": 0,
     "suecia": 0
+}
+
+//GRUPO G
+
+let resultlMatch37 = {
+    "belgica": 0,
+    "egipto": 0
+}
+
+let resultlMatch38 = {
+    "iran": 0,
+    "nuevazelanda": 0
+}
+
+let resultlMatch39 = {
+    "belgica": 0,
+    "iran": 0
+}
+
+let resultlMatch40 = {
+    "nuevazelanda": 0,
+    "egipto": 0
+}
+
+let resultlMatch41 = {
+    "nuevazelanda": 0,
+    "belgica": 0
+}
+
+let resultlMatch42 = {
+    "egipto": 0,
+    "iran": 0
+}
+
+//GRUPO H
+
+let resultlMatch43 = {
+    "espana": 0,
+    "caboverde": 0
+}
+
+let resultlMatch44 = {
+    "arabia": 0,
+    "uruguay": 0
+}
+
+let resultlMatch45 = {
+    "espana": 0,
+    "arabia": 0
+}
+
+let resultlMatch46 = {
+    "uruguay": 0,
+    "caboverde": 0
+}
+
+let resultlMatch47 = {
+    "caboverde": 0,
+    "arabia": 0
+}
+
+let resultlMatch48 = {
+    "uruguay": 0,
+    "espana": 0
+}
+
+//GRUPO I
+
+let resultlMatch49 = {
+    "francia": 0,
+    "senegal": 0
+}
+
+let resultlMatch50 = {
+    "irak": 0,
+    "noruega": 0
+}
+
+let resultlMatch51 = {
+    "francia": 0,
+    "irak": 0
+}
+
+let resultlMatch52 = {
+    "noruega": 0,
+    "senegal": 0
+}
+
+let resultlMatch53 = {
+    "noruega": 0,
+    "francia": 0
+}
+
+let resultlMatch54 = {
+    "senegal": 0,
+    "irak": 0
 }
 
 
@@ -8342,24 +9345,2812 @@ function loadFromLocal36() {
     sueciaPoints.textContent = sueciaStats.pts
 }
 
+//GRUPO G //
+
+//FUNCIONES PARA ACTUALIZAR Y RENDERIZAR LUEGO DEL RESULTADO DE LOS PARTIDOS
+
+function belgicaWon() {
+    belgicaStats.pj = belgicaStats.pj + 1
+    belgicaStats.pg = belgicaStats.pg + 1
+    belgicaStats.pts = belgicaStats.pts + 3
+    belgicaStats.dg = result
+
+    belgicaPlayedGames.textContent = belgicaStats.pj
+    belgicaWonGames.textContent = belgicaStats.pg
+    belgicaGoalDifference.textContent = belgicaStats.dg
+    belgicaPoints.textContent = belgicaStats.pts
+
+}
+
+function belgicaWonAgain() {
+    belgicaStats.pj = belgicaStats.pj + 1
+    belgicaStats.pg = belgicaStats.pg + 1
+    belgicaStats.pts = belgicaStats.pts + 3
+    belgicaStats.dg = belgicaStats.dg + result
+
+    belgicaPlayedGames.textContent = belgicaStats.pj
+    belgicaWonGames.textContent = belgicaStats.pg
+    belgicaGoalDifference.textContent = belgicaStats.dg
+    belgicaPoints.textContent = belgicaStats.pts
+
+
+}
+
+function belgicaLose() {
+    belgicaStats.pj = belgicaStats.pj + 1
+    belgicaStats.pp = belgicaStats.pp + 1
+    belgicaStats.dg = -result
+
+    belgicaPlayedGames.textContent = belgicaStats.pj
+    belgicaLostGames.textContent = belgicaStats.pp
+    belgicaGoalDifference.textContent = belgicaStats.dg
+    belgicaPoints.textContent = belgicaStats.pts
+
+}
+
+function belgicaLoseAgain() {
+    belgicaStats.pj = belgicaStats.pj + 1
+    belgicaStats.pp = belgicaStats.pp + 1
+    belgicaStats.dg = belgicaStats.dg - result
+
+    belgicaPlayedGames.textContent = belgicaStats.pj
+    belgicaLostGames.textContent = belgicaStats.pp
+    belgicaGoalDifference.textContent = belgicaStats.dg
+    belgicaPoints.textContent = belgicaStats.pts
+}
+
+function belgicaDraw() {
+    belgicaStats.pj = belgicaStats.pj + 1
+    belgicaStats.pe = belgicaStats.pe + 1
+    belgicaStats.pts = belgicaStats.pts + 1
+
+    belgicaPlayedGames.textContent = belgicaStats.pj
+    belgicaDrawGames.textContent = belgicaStats.pe
+    belgicaPoints.textContent = belgicaStats.pts
+}
+
+function egiptoWon() {
+    egiptoStats.pj = egiptoStats.pj + 1
+    egiptoStats.pg = egiptoStats.pg + 1
+    egiptoStats.pts = egiptoStats.pts + 3
+    egiptoStats.dg = result
+
+    egiptoPlayedGames.textContent = egiptoStats.pj
+    egiptoWonGames.textContent = egiptoStats.pg
+    egiptoGoalDifference.textContent = egiptoStats.dg
+    egiptoPoints.textContent = egiptoStats.pts
+}
+
+function egiptoWonAgain() {
+    egiptoStats.pj = egiptoStats.pj + 1
+    egiptoStats.pg = egiptoStats.pg + 1
+    egiptoStats.pts = egiptoStats.pts + 3
+    egiptoStats.dg = egiptoStats.dg + result
+
+    egiptoPlayedGames.textContent = egiptoStats.pj
+    egiptoWonGames.textContent = egiptoStats.pg
+    egiptoGoalDifference.textContent = egiptoStats.dg
+    egiptoPoints.textContent = egiptoStats.pts
+}
+
+function egiptoLose() {
+    egiptoStats.pj = egiptoStats.pj + 1
+    egiptoStats.pp = egiptoStats.pp + 1
+    egiptoStats.dg = -result
+
+    egiptoPlayedGames.textContent = egiptoStats.pj
+    egiptoLostGames.textContent = egiptoStats.pp
+    egiptoGoalDifference.textContent = egiptoStats.dg
+    egiptoPoints.textContent = egiptoStats.pts
+
+}
+
+function egiptoLoseAgain() {
+    egiptoStats.pj = egiptoStats.pj + 1
+    egiptoStats.pp = egiptoStats.pp + 1
+    egiptoStats.dg = egiptoStats.dg - result
+
+    egiptoPlayedGames.textContent = egiptoStats.pj
+    egiptoLostGames.textContent = egiptoStats.pp
+    egiptoGoalDifference.textContent = egiptoStats.dg
+    egiptoPoints.textContent = egiptoStats.pts
+
+}
+
+function egiptoDraw() {
+    egiptoStats.pj = egiptoStats.pj + 1
+    egiptoStats.pe = egiptoStats.pe + 1
+    egiptoStats.pts = egiptoStats.pts + 1
+
+    egiptoPlayedGames.textContent = egiptoStats.pj
+    egiptoDrawGames.textContent = egiptoStats.pe
+    egiptoPoints.textContent = egiptoStats.pts
+
+}
+
+function iranWon() {
+    iranStats.pj = iranStats.pj + 1
+    iranStats.pg = iranStats.pg + 1
+    iranStats.pts = iranStats.pts + 3
+    iranStats.dg = result
+
+    iranPlayedGames.textContent = iranStats.pj
+    iranWonGames.textContent = iranStats.pg
+    iranGoalDifference.textContent = iranStats.dg
+    iranPoints.textContent = iranStats.pts
+
+
+}
+
+function iranWonAgain() {
+    iranStats.pj = iranStats.pj + 1
+    iranStats.pg = iranStats.pg + 1
+    iranStats.pts = iranStats.pts + 3
+    iranStats.dg = iranStats.dg + result
+
+    iranPlayedGames.textContent = iranStats.pj
+    iranWonGames.textContent = iranStats.pg
+    iranGoalDifference.textContent = iranStats.dg
+    iranPoints.textContent = iranStats.pts
+
+}
+
+function iranLose() {
+    iranStats.pj = iranStats.pj + 1
+    iranStats.pp = iranStats.pp + 1
+    iranStats.dg = -result
+
+    iranPlayedGames.textContent = iranStats.pj
+    iranLostGames.textContent = iranStats.pp
+    iranGoalDifference.textContent = iranStats.dg
+    iranPoints.textContent = iranStats.pts
+
+}
+
+function iranLoseAgain() {
+    iranStats.pj = iranStats.pj + 1
+    iranStats.pp = iranStats.pp + 1
+    iranStats.dg = iranStats.dg - result
+
+    iranPlayedGames.textContent = iranStats.pj
+    iranLostGames.textContent = iranStats.pp
+    iranGoalDifference.textContent = iranStats.dg
+    iranPoints.textContent = iranStats.pts
+}
+
+function iranDraw() {
+    iranStats.pj = iranStats.pj + 1
+    iranStats.pe = iranStats.pe + 1
+    iranStats.pts = iranStats.pts + 1
+
+    iranPlayedGames.textContent = iranStats.pj
+    iranDrawGames.textContent = iranStats.pe
+    iranPoints.textContent = iranStats.pts
+}
+
+function nuevazelandaWon() {
+    nuevazelandaStats.pj = nuevazelandaStats.pj + 1
+    nuevazelandaStats.pg = nuevazelandaStats.pg + 1
+    nuevazelandaStats.pts = nuevazelandaStats.pts + 3
+    nuevazelandaStats.dg = result
+
+    nuevazelandaPlayedGames.textContent = nuevazelandaStats.pj
+    nuevazelandaWonGames.textContent = nuevazelandaStats.pg
+    nuevazelandaGoalDifference.textContent = nuevazelandaStats.dg
+    nuevazelandaPoints.textContent = nuevazelandaStats.pts
+}
+
+function nuevazelandaWonAgain() {
+    nuevazelandaStats.pj = nuevazelandaStats.pj + 1
+    nuevazelandaStats.pg = nuevazelandaStats.pg + 1
+    nuevazelandaStats.pts = nuevazelandaStats.pts + 3
+    nuevazelandaStats.dg = nuevazelandaStats.dg + result
+
+    nuevazelandaPlayedGames.textContent = nuevazelandaStats.pj
+    nuevazelandaWonGames.textContent = nuevazelandaStats.pg
+    nuevazelandaGoalDifference.textContent = nuevazelandaStats.dg
+    nuevazelandaPoints.textContent = nuevazelandaStats.pts
+}
+
+function nuevazelandaLose() {
+    nuevazelandaStats.pj = nuevazelandaStats.pj + 1
+    nuevazelandaStats.pp = nuevazelandaStats.pp + 1
+    nuevazelandaStats.dg = -result
+
+    nuevazelandaPlayedGames.textContent = nuevazelandaStats.pj
+    nuevazelandaLostGames.textContent = nuevazelandaStats.pp
+    nuevazelandaGoalDifference.textContent = nuevazelandaStats.dg
+    nuevazelandaPoints.textContent = nuevazelandaStats.pts
+
+}
+
+function nuevazelandaLoseAgain() {
+    nuevazelandaStats.pj = nuevazelandaStats.pj + 1
+    nuevazelandaStats.pp = nuevazelandaStats.pp + 1
+    nuevazelandaStats.dg = nuevazelandaStats.dg - result
+
+    nuevazelandaPlayedGames.textContent = nuevazelandaStats.pj
+    nuevazelandaLostGames.textContent = nuevazelandaStats.pp
+    nuevazelandaGoalDifference.textContent = nuevazelandaStats.dg
+    nuevazelandaPoints.textContent = nuevazelandaStats.pts
+
+}
+
+function nuevazelandaDraw() {
+    nuevazelandaStats.pj = nuevazelandaStats.pj + 1
+    nuevazelandaStats.pe = nuevazelandaStats.pe + 1
+    nuevazelandaStats.pts = nuevazelandaStats.pts + 1
+
+    nuevazelandaPlayedGames.textContent = nuevazelandaStats.pj
+    nuevazelandaDrawGames.textContent = nuevazelandaStats.pe
+    nuevazelandaPoints.textContent = nuevazelandaStats.pts
+
+}
+
+//PARTIDO 1//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match37() {
+    scoreTeam73.addEventListener("change", function (e) {
+        resultlMatch37.belgica = e.target.value
+        checkWinner37();
+
+    });
+
+    scoreTeam74.addEventListener("change", function (e) {
+        resultlMatch37.egipto = e.target.value
+        checkWinner37();
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner37() {
+    if (resultlMatch37.belgica === 0 || resultlMatch37.egipto === 0) return;
+    if (resultlMatch37.belgica > resultlMatch37.egipto) {
+        result = resultlMatch37.belgica - resultlMatch37.egipto
+
+        belgicaWon();
+        egiptoLose();
+
+    } else if (resultlMatch37.belgica < resultlMatch37.egipto) {
+        result = resultlMatch37.egipto - resultlMatch37.belgica
+
+        belgicaLose();
+        egiptoWon();
+
+    } else {
+        belgicaDraw();
+        egiptoDraw();
+    }
+};
+
+match37();
+
+//accedemos a la card con el marcador
+const matchThirtySeven = document.getElementById("match37")
+//inyectamos el resultado actualizado
+saveBtn37.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game37Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/belgica-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${belgicaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch37.belgica}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch37.egipto}<p/>
+                                    <div class="rival2team">${egiptoStats.country}</div>
+                                    <div>
+                                        <img src="images/egipto-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchThirtySeven.innerHTML = game37Saved;
+    saveToLocal37();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal37() {
+    localStorage.setItem("resultlMatch37", JSON.stringify(resultlMatch37));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("belgicaSavedStats", JSON.stringify(belgicaStats));
+    localStorage.setItem("egiptoSavedStats", JSON.stringify(egiptoStats));
+}
+
+function loadFromLocal37() {
+    //carga los datos guardados previamente 
+    resultlMatch37 = JSON.parse(localStorage.getItem("resultlMatch37"));
+    belgicaStats = JSON.parse(localStorage.getItem("belgicaSavedStats"));
+    egiptoStats = JSON.parse(localStorage.getItem("egiptoSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchThirtySeven.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/belgica-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${belgicaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch37.belgica}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch37.egipto}<p/>
+                                    <div class="rival2team">${egiptoStats.country}</div>
+                                    <div>
+                                        <img src="images/egipto-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    belgicaPlayedGames.textContent = belgicaStats.pj
+    belgicaWonGames.textContent = belgicaStats.pg
+    belgicaDrawGames.textContent = belgicaStats.pe
+    belgicaLostGames.textContent = belgicaStats.pp
+    belgicaGoalDifference.textContent = belgicaStats.dg
+    belgicaPoints.textContent = belgicaStats.pts
+
+    egiptoPlayedGames.textContent = egiptoStats.pj
+    egiptoWonGames.textContent = egiptoStats.pg
+    egiptoDrawGames.textContent = egiptoStats.pe
+    egiptoLostGames.textContent = egiptoStats.pp
+    egiptoGoalDifference.textContent = egiptoStats.dg
+    egiptoPoints.textContent = egiptoStats.pts
+}
+
+//PARTIDO 2//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match38() {
+    scoreTeam75.addEventListener("change", function (e) {
+        resultlMatch38.iran = e.target.value
+        checkWinner38();
+
+    });
+
+    scoreTeam76.addEventListener("change", function (e) {
+        resultlMatch38.nuevazelanda = e.target.value
+        checkWinner38();
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner38() {
+    if (resultlMatch38.iran === 0 || resultlMatch38.nuevazelanda === 0) return;
+    if (resultlMatch38.iran > resultlMatch38.nuevazelanda) {
+        result = resultlMatch38.iran - resultlMatch38.nuevazelanda
+
+        iranWon();
+        nuevazelandaLose();
+
+    } else if (resultlMatch38.iran < resultlMatch38.egipto) {
+        result = resultlMatch38.egipto - resultlMatch38.iran
+
+        iranLose();
+        nuevazelandaWon();
+
+    } else {
+        iranDraw();
+        nuevazelandaDraw();
+    }
+};
+
+match38();
+
+//accedemos a la card con el marcador
+const matchThirtyEight = document.getElementById("match38")
+//inyectamos el resultado actualizado
+saveBtn38.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game38Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/iran-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${iranStats.country}</div>
+                                    <p class="rival1score">${resultlMatch38.iran}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch38.nuevazelanda}<p/>
+                                    <div class="rival2team">${nuevazelandaStats.country}</div>
+                                    <div>
+                                        <img src="images/nuevazelanda-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchThirtyEight.innerHTML = game38Saved;
+    saveToLocal38();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal38() {
+    localStorage.setItem("resultlMatch38", JSON.stringify(resultlMatch38));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("iranSavedStats", JSON.stringify(iranStats));
+    localStorage.setItem("nuevazelandaSavedStats", JSON.stringify(nuevazelandaStats));
+}
+
+function loadFromLocal38() {
+    //carga los datos guardados previamente 
+    resultlMatch38 = JSON.parse(localStorage.getItem("resultlMatch38"));
+    iranStats = JSON.parse(localStorage.getItem("iranSavedStats"));
+    nuevazelandaStats = JSON.parse(localStorage.getItem("nuevazelandaSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchThirtyEight.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/iran-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${iranStats.country}</div>
+                                    <p class="rival1score">${resultlMatch38.iran}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch38.nuevazelanda}<p/>
+                                    <div class="rival2team">${nuevazelandaStats.country}</div>
+                                    <div>
+                                        <img src="images/nuevazelanda-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    iranPlayedGames.textContent = iranStats.pj
+    iranWonGames.textContent = iranStats.pg
+    iranDrawGames.textContent = iranStats.pe
+    iranLostGames.textContent = iranStats.pp
+    iranGoalDifference.textContent = iranStats.dg
+    iranPoints.textContent = iranStats.pts
+
+    nuevazelandaPlayedGames.textContent = nuevazelandaStats.pj
+    nuevazelandaWonGames.textContent = nuevazelandaStats.pg
+    nuevazelandaDrawGames.textContent = nuevazelandaStats.pe
+    nuevazelandaLostGames.textContent = nuevazelandaStats.pp
+    nuevazelandaGoalDifference.textContent = nuevazelandaStats.dg
+    nuevazelandaPoints.textContent = nuevazelandaStats.pts
+}
+
+//PARTIDO 3//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match39() {
+    scoreTeam77.addEventListener("change", function (e) {
+        resultlMatch39.belgica = e.target.value
+        checkWinner39();
+
+    });
+
+    scoreTeam78.addEventListener("change", function (e) {
+        resultlMatch39.iran = e.target.value
+        checkWinner39();
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner39() {
+    if (resultlMatch39.belgica === 0 || resultlMatch39.iran === 0) return;
+    if (resultlMatch39.belgica > resultlMatch39.iran) {
+        result = resultlMatch39.belgica - resultlMatch39.iran
+
+        belgicaWonAgain();
+        iranLoseAgain();
+
+    } else if (resultlMatch39.belgica < resultlMatch39.iran) {
+        result = resultlMatch39.iran - resultlMatch39.belgica
+
+        iranWonAgain();
+        belgicaLoseAgain();
+
+    } else {
+        iranDraw();
+        belgicaDraw();
+    }
+};
+
+match39();
+
+//accedemos a la card con el marcador
+const matchThirtyNine = document.getElementById("match39")
+//inyectamos el resultado actualizado
+saveBtn39.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game39Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/belgica-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${belgicaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch39.belgica}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch39.iran}<p/>
+                                    <div class="rival2team">${iranStats.country}</div>
+                                    <div>
+                                        <img src="images/iran-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchThirtyNine.innerHTML = game39Saved;
+    saveToLocal39();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal39() {
+    localStorage.setItem("resultlMatch39", JSON.stringify(resultlMatch39));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("iranSavedStats", JSON.stringify(iranStats));
+    localStorage.setItem("belgicaSavedStats", JSON.stringify(belgicaStats));
+}
+
+function loadFromLocal39() {
+    //carga los datos guardados previamente 
+    resultlMatch39 = JSON.parse(localStorage.getItem("resultlMatch39"));
+    iranStats = JSON.parse(localStorage.getItem("iranSavedStats"));
+    belgicaStats = JSON.parse(localStorage.getItem("belgicaSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchThirtyNine.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/belgica-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${belgicaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch39.belgica}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch39.iran}<p/>
+                                    <div class="rival2team">${iranStats.country}</div>
+                                    <div>
+                                        <img src="images/iran-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    iranPlayedGames.textContent = iranStats.pj
+    iranWonGames.textContent = iranStats.pg
+    iranDrawGames.textContent = iranStats.pe
+    iranLostGames.textContent = iranStats.pp
+    iranGoalDifference.textContent = iranStats.dg
+    iranPoints.textContent = iranStats.pts
+
+    belgicaPlayedGames.textContent = belgicaStats.pj
+    belgicaWonGames.textContent = belgicaStats.pg
+    belgicaDrawGames.textContent = belgicaStats.pe
+    belgicaLostGames.textContent = belgicaStats.pp
+    belgicaGoalDifference.textContent = belgicaStats.dg
+    belgicaPoints.textContent = belgicaStats.pts
+}
+
+//PARTIDO 4//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match40() {
+    scoreTeam79.addEventListener("change", function (e) {
+        resultlMatch40.nuevazelanda = e.target.value
+        checkWinner40();
+
+    });
+
+    scoreTeam80.addEventListener("change", function (e) {
+        resultlMatch40.egipto = e.target.value
+        checkWinner40();
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner40() {
+    if (resultlMatch40.nuevazelanda === 0 || resultlMatch40.egipto === 0) return;
+    if (resultlMatch40.nuevazelanda > resultlMatch40.egipto) {
+        result = resultlMatch40.nuevazelanda - resultlMatch40.egipto
+
+        nuevazelandaWonAgain();
+        egiptoLoseAgain();
+
+    } else if (resultlMatch40.nuevazelanda < resultlMatch40.egipto) {
+        result = resultlMatch40.egipto - resultlMatch40.nuevazelanda
+
+        egiptoWonAgain();
+        nuevazelandaLoseAgain();
+
+    } else {
+        nuevazelandaDraw();
+        egiptoDraw();
+    }
+};
+
+match40();
+
+//accedemos a la card con el marcador
+const matchFourty = document.getElementById("match40")
+//inyectamos el resultado actualizado
+saveBtn40.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game40Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/nuevazelanda-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${nuevazelandaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch40.nuevazelanda}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch40.egipto}<p/>
+                                    <div class="rival2team">${egiptoStats.country}</div>
+                                    <div>
+                                        <img src="images/egipto-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFourty.innerHTML = game40Saved;
+    saveToLocal40();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal40() {
+    localStorage.setItem("resultlMatch40", JSON.stringify(resultlMatch40));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("nuevazelandaSavedStats", JSON.stringify(nuevazelandaStats));
+    localStorage.setItem("egiptoSavedStats", JSON.stringify(egiptoStats));
+}
+
+function loadFromLocal40() {
+    //carga los datos guardados previamente 
+    resultlMatch40 = JSON.parse(localStorage.getItem("resultlMatch40"));
+    nuevazelandaStats = JSON.parse(localStorage.getItem("nuevazelandaSavedStats"));
+    egiptoStats = JSON.parse(localStorage.getItem("egiptoSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFourty.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/nuevazelanda-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${nuevazelandaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch40.nuevazelanda}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch40.egipto}<p/>
+                                    <div class="rival2team">${egiptoStats.country}</div>
+                                    <div>
+                                        <img src="images/egipto-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    nuevazelandaPlayedGames.textContent = nuevazelandaStats.pj
+    nuevazelandaWonGames.textContent = nuevazelandaStats.pg
+    nuevazelandaDrawGames.textContent = nuevazelandaStats.pe
+    nuevazelandaLostGames.textContent = nuevazelandaStats.pp
+    nuevazelandaGoalDifference.textContent = nuevazelandaStats.dg
+    nuevazelandaPoints.textContent = nuevazelandaStats.pts
+
+    egiptoPlayedGames.textContent = egiptoStats.pj
+    egiptoWonGames.textContent = egiptoStats.pg
+    egiptoDrawGames.textContent = egiptoStats.pe
+    egiptoLostGames.textContent = egiptoStats.pp
+    egiptoGoalDifference.textContent = egiptoStats.dg
+    egiptoPoints.textContent = egiptoStats.pts
+}
+
+//PARTIDO 5//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match41() {
+    scoreTeam81.addEventListener("change", function (e) {
+        resultlMatch41.nuevazelanda = e.target.value
+        checkWinner41();
+
+    });
+
+    scoreTeam82.addEventListener("change", function (e) {
+        resultlMatch41.belgica = e.target.value
+        checkWinner41();
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner41() {
+    if (resultlMatch41.nuevazelanda === 0 || resultlMatch41.belgica === 0) return;
+    if (resultlMatch41.nuevazelanda > resultlMatch41.belgica) {
+        result = resultlMatch41.nuevazelanda - resultlMatch41.belgica
+
+        nuevazelandaWonAgain();
+        belgicaLoseAgain();
+
+    } else if (resultlMatch41.nuevazelanda < resultlMatch41.belgica) {
+        result = resultlMatch41.belgica - resultlMatch41.nuevazelanda
+
+        belgicaWonAgain();
+        nuevazelandaLoseAgain();
+
+    } else {
+        nuevazelandaDraw();
+        belgicaDraw();
+    }
+};
+
+match41();
+
+//accedemos a la card con el marcador
+const matchFourtyOne = document.getElementById("match41")
+//inyectamos el resultado actualizado
+saveBtn41.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game41Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/nuevazelanda-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${nuevazelandaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch41.nuevazelanda}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch41.belgica}<p/>
+                                    <div class="rival2team">${belgicaStats.country}</div>
+                                    <div>
+                                        <img src="images/belgica-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFourtyOne.innerHTML = game41Saved;
+    saveToLocal41();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal41() {
+    localStorage.setItem("resultlMatch41", JSON.stringify(resultlMatch41));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("nuevazelandaSavedStats", JSON.stringify(nuevazelandaStats));
+    localStorage.setItem("belgicaSavedStats", JSON.stringify(belgicaStats));
+}
+
+function loadFromLocal41() {
+    //carga los datos guardados previamente 
+    resultlMatch41 = JSON.parse(localStorage.getItem("resultlMatch41"));
+    nuevazelandaStats = JSON.parse(localStorage.getItem("nuevazelandaSavedStats"));
+    belgicaStats = JSON.parse(localStorage.getItem("belgicaSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFourtyOne.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/nuevazelanda-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${nuevazelandaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch41.nuevazelanda}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch41.belgica}<p/>
+                                    <div class="rival2team">${belgicaStats.country}</div>
+                                    <div>
+                                        <img src="images/belgica-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    nuevazelandaPlayedGames.textContent = nuevazelandaStats.pj
+    nuevazelandaWonGames.textContent = nuevazelandaStats.pg
+    nuevazelandaDrawGames.textContent = nuevazelandaStats.pe
+    nuevazelandaLostGames.textContent = nuevazelandaStats.pp
+    nuevazelandaGoalDifference.textContent = nuevazelandaStats.dg
+    nuevazelandaPoints.textContent = nuevazelandaStats.pts
+
+    belgicaPlayedGames.textContent = belgicaStats.pj
+    belgicaWonGames.textContent = belgicaStats.pg
+    belgicaDrawGames.textContent = belgicaStats.pe
+    belgicaLostGames.textContent = belgicaStats.pp
+    belgicaGoalDifference.textContent = belgicaStats.dg
+    belgicaPoints.textContent = belgicaStats.pts
+}
+
+//PARTIDO 6//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match42() {
+
+    scoreTeam83.addEventListener("change", function (e) {
+        resultlMatch42.egipto = e.target.value
+        checkWinner42();
+    });
+
+    scoreTeam84.addEventListener("change", function (e) {
+        resultlMatch42.iran = e.target.value
+        checkWinner42();
+
+    });
 
 
 
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner42() {
+    if (resultlMatch42.iran === 0 || resultlMatch42.egipto === 0) return;
+    if (resultlMatch42.iran > resultlMatch42.egipto) {
+        result = resultlMatch42.iran - resultlMatch42.egipto
+
+        iranWonAgain();
+        egiptoLoseAgain();
+
+    } else if (resultlMatch42.iran < resultlMatch42.egipto) {
+        result = resultlMatch42.egipto - resultlMatch42.iran
+
+        egiptoWonAgain();
+        iranLoseAgain();
+
+    } else {
+        iranDraw();
+        egiptoDraw();
+    }
+};
+
+match42();
+
+//accedemos a la card con el marcador
+const matchFourtyTwo = document.getElementById("match42")
+//inyectamos el resultado actualizado
+saveBtn42.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game42Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/egipto-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${egiptoStats.country}</div>
+                                    <p class="rival1score">${resultlMatch42.egipto}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch42.iran}<p/>
+                                    <div class="rival2team">${iranStats.country}</div>
+                                    <div>
+                                        <img src="images/iran-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFourtyTwo.innerHTML = game42Saved;
+    saveToLocal42();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal42() {
+    localStorage.setItem("resultlMatch42", JSON.stringify(resultlMatch42));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("egiptoSavedStats", JSON.stringify(egiptoStats));
+    localStorage.setItem("iranSavedStats", JSON.stringify(iranStats));
+}
+
+function loadFromLocal42() {
+    //carga los datos guardados previamente 
+    resultlMatch42 = JSON.parse(localStorage.getItem("resultlMatch42"));
+    egiptoStats = JSON.parse(localStorage.getItem("egiptoSavedStats"));
+    iranStats = JSON.parse(localStorage.getItem("iranSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFourtyTwo.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/egipto-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${egiptoStats.country}</div>
+                                    <p class="rival1score">${resultlMatch42.egipto}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch42.iran}<p/>
+                                    <div class="rival2team">${iranStats.country}</div>
+                                    <div>
+                                        <img src="images/iran-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    egiptoPlayedGames.textContent = egiptoStats.pj
+    egiptoWonGames.textContent = egiptoStats.pg
+    egiptoDrawGames.textContent = egiptoStats.pe
+    egiptoLostGames.textContent = egiptoStats.pp
+    egiptoGoalDifference.textContent = egiptoStats.dg
+    egiptoPoints.textContent = egiptoStats.pts
+
+    iranPlayedGames.textContent = iranStats.pj
+    iranWonGames.textContent = iranStats.pg
+    iranDrawGames.textContent = iranStats.pe
+    iranLostGames.textContent = iranStats.pp
+    iranGoalDifference.textContent = iranStats.dg
+    iranPoints.textContent = iranStats.pts
+}
+
+//GRUPO H //
+
+//FUNCIONES PARA ACTUALIZAR Y RENDERIZAR LUEGO DEL RESULTADO DE LOS PARTIDOS
+
+function espanaWon() {
+    espanaStats.pj = espanaStats.pj + 1
+    espanaStats.pg = espanaStats.pg + 1
+    espanaStats.pts = espanaStats.pts + 3
+    espanaStats.dg = result
+
+    espanaPlayedGames.textContent = espanaStats.pj
+    espanaWonGames.textContent = espanaStats.pg
+    espanaGoalDifference.textContent = espanaStats.dg
+    espanaPoints.textContent = espanaStats.pts
+
+}
+
+function espanaWonAgain() {
+    espanaStats.pj = espanaStats.pj + 1
+    espanaStats.pg = espanaStats.pg + 1
+    espanaStats.pts = espanaStats.pts + 3
+    espanaStats.dg = espanaStats.dg + result
+
+    espanaPlayedGames.textContent = espanaStats.pj
+    espanaWonGames.textContent = espanaStats.pg
+    espanaGoalDifference.textContent = espanaStats.dg
+    espanaPoints.textContent = espanaStats.pts
+
+
+}
+
+function espanaLose() {
+    espanaStats.pj = espanaStats.pj + 1
+    espanaStats.pp = espanaStats.pp + 1
+    espanaStats.dg = -result
+
+    espanaPlayedGames.textContent = espanaStats.pj
+    espanaLostGames.textContent = espanaStats.pp
+    espanaGoalDifference.textContent = espanaStats.dg
+    espanaPoints.textContent = espanaStats.pts
+
+}
+
+function espanaLoseAgain() {
+    espanaStats.pj = espanaStats.pj + 1
+    espanaStats.pp = espanaStats.pp + 1
+    espanaStats.dg = espanaStats.dg - result
+
+    espanaPlayedGames.textContent = espanaStats.pj
+    espanaLostGames.textContent = espanaStats.pp
+    espanaGoalDifference.textContent = espanaStats.dg
+    espanaPoints.textContent = espanaStats.pts
+}
+
+function espanaDraw() {
+    espanaStats.pj = espanaStats.pj + 1
+    espanaStats.pe = espanaStats.pe + 1
+    espanaStats.pts = espanaStats.pts + 1
+
+    espanaPlayedGames.textContent = espanaStats.pj
+    espanaDrawGames.textContent = espanaStats.pe
+    espanaPoints.textContent = espanaStats.pts
+}
+
+function caboverdeWon() {
+    caboverdeStats.pj = caboverdeStats.pj + 1
+    caboverdeStats.pg = caboverdeStats.pg + 1
+    caboverdeStats.pts = caboverdeStats.pts + 3
+    caboverdeStats.dg = result
+
+    caboverdePlayedGames.textContent = caboverdeStats.pj
+    caboverdeWonGames.textContent = caboverdeStats.pg
+    caboverdeGoalDifference.textContent = caboverdeStats.dg
+    caboverdePoints.textContent = caboverdeStats.pts
+}
+
+function caboverdeWonAgain() {
+    caboverdeStats.pj = caboverdeStats.pj + 1
+    caboverdeStats.pg = caboverdeStats.pg + 1
+    caboverdeStats.pts = caboverdeStats.pts + 3
+    caboverdeStats.dg = caboverdeStats.dg + result
+
+    caboverdePlayedGames.textContent = caboverdeStats.pj
+    caboverdeWonGames.textContent = caboverdeStats.pg
+    caboverdeGoalDifference.textContent = caboverdeStats.dg
+    caboverdePoints.textContent = caboverdeStats.pts
+}
+
+function caboverdeLose() {
+    caboverdeStats.pj = caboverdeStats.pj + 1
+    caboverdeStats.pp = caboverdeStats.pp + 1
+    caboverdeStats.dg = -result
+
+    caboverdePlayedGames.textContent = caboverdeStats.pj
+    caboverdeLostGames.textContent = caboverdeStats.pp
+    caboverdeGoalDifference.textContent = caboverdeStats.dg
+    caboverdePoints.textContent = caboverdeStats.pts
+
+}
+
+function caboverdeLoseAgain() {
+    caboverdeStats.pj = caboverdeStats.pj + 1
+    caboverdeStats.pp = caboverdeStats.pp + 1
+    caboverdeStats.dg = caboverdeStats.dg - result
+
+    caboverdePlayedGames.textContent = caboverdeStats.pj
+    caboverdeLostGames.textContent = caboverdeStats.pp
+    caboverdeGoalDifference.textContent = caboverdeStats.dg
+    caboverdePoints.textContent = caboverdeStats.pts
+
+}
+
+function caboverdeDraw() {
+    caboverdeStats.pj = caboverdeStats.pj + 1
+    caboverdeStats.pe = caboverdeStats.pe + 1
+    caboverdeStats.pts = caboverdeStats.pts + 1
+
+    caboverdePlayedGames.textContent = caboverdeStats.pj
+    caboverdeDrawGames.textContent = caboverdeStats.pe
+    caboverdePoints.textContent = caboverdeStats.pts
+
+}
+
+function arabiaWon() {
+    arabiaStats.pj = arabiaStats.pj + 1
+    arabiaStats.pg = arabiaStats.pg + 1
+    arabiaStats.pts = arabiaStats.pts + 3
+    arabiaStats.dg = result
+
+    arabiaPlayedGames.textContent = arabiaStats.pj
+    arabiaWonGames.textContent = arabiaStats.pg
+    arabiaGoalDifference.textContent = arabiaStats.dg
+    arabiaPoints.textContent = arabiaStats.pts
+
+
+}
+
+function arabiaWonAgain() {
+    arabiaStats.pj = arabiaStats.pj + 1
+    arabiaStats.pg = arabiaStats.pg + 1
+    arabiaStats.pts = arabiaStats.pts + 3
+    arabiaStats.dg = arabiaStats.dg + result
+
+    arabiaPlayedGames.textContent = arabiaStats.pj
+    arabiaWonGames.textContent = arabiaStats.pg
+    arabiaGoalDifference.textContent = arabiaStats.dg
+    arabiaPoints.textContent = arabiaStats.pts
+
+}
+
+function arabiaLose() {
+    arabiaStats.pj = arabiaStats.pj + 1
+    arabiaStats.pp = arabiaStats.pp + 1
+    arabiaStats.dg = -result
+
+    arabiaPlayedGames.textContent = arabiaStats.pj
+    arabiaLostGames.textContent = arabiaStats.pp
+    arabiaGoalDifference.textContent = arabiaStats.dg
+    arabiaPoints.textContent = arabiaStats.pts
+
+}
+
+function arabiaLoseAgain() {
+    arabiaStats.pj = arabiaStats.pj + 1
+    arabiaStats.pp = arabiaStats.pp + 1
+    arabiaStats.dg = arabiaStats.dg - result
+
+    arabiaPlayedGames.textContent = arabiaStats.pj
+    arabiaLostGames.textContent = arabiaStats.pp
+    arabiaGoalDifference.textContent = arabiaStats.dg
+    arabiaPoints.textContent = arabiaStats.pts
+}
+
+function arabiaDraw() {
+    arabiaStats.pj = arabiaStats.pj + 1
+    arabiaStats.pe = arabiaStats.pe + 1
+    arabiaStats.pts = arabiaStats.pts + 1
+
+    arabiaPlayedGames.textContent = arabiaStats.pj
+    arabiaDrawGames.textContent = arabiaStats.pe
+    arabiaPoints.textContent = arabiaStats.pts
+}
+
+function uruguayndaWon() {
+    uruguayStats.pj = uruguayStats.pj + 1
+    uruguayStats.pg = uruguayStats.pg + 1
+    uruguayStats.pts = uruguayStats.pts + 3
+    uruguayStats.dg = result
+
+    uruguayPlayedGames.textContent = uruguayStats.pj
+    uruguayWonGames.textContent = uruguayStats.pg
+    uruguayGoalDifference.textContent = uruguayStats.dg
+    uruguayPoints.textContent = uruguayStats.pts
+}
+
+function uruguayWonAgain() {
+    uruguayStats.pj = uruguayStats.pj + 1
+    uruguayStats.pg = uruguayStats.pg + 1
+    uruguayStats.pts = uruguayStats.pts + 3
+    uruguayStats.dg = uruguayStats.dg + result
+
+    uruguayPlayedGames.textContent = uruguayStats.pj
+    uruguayWonGames.textContent = uruguayStats.pg
+    uruguayGoalDifference.textContent = uruguayStats.dg
+    uruguayPoints.textContent = uruguayStats.pts
+}
+
+function uruguayLose() {
+    uruguayStats.pj = uruguayStats.pj + 1
+    uruguayStats.pp = uruguayStats.pp + 1
+    uruguayStats.dg = -result
+
+    uruguayPlayedGames.textContent = uruguayStats.pj
+    uruguayLostGames.textContent = uruguayStats.pp
+    uruguayGoalDifference.textContent = uruguayStats.dg
+    uruguayPoints.textContent = uruguayStats.pts
+
+}
+
+function uruguayLoseAgain() {
+    uruguayStats.pj = uruguayStats.pj + 1
+    uruguayStats.pp = uruguayStats.pp + 1
+    uruguayStats.dg = uruguayStats.dg - result
+
+    uruguayPlayedGames.textContent = uruguayStats.pj
+    uruguayLostGames.textContent = uruguayStats.pp
+    uruguayGoalDifference.textContent = uruguayStats.dg
+    uruguayPoints.textContent = uruguayStats.pts
+
+}
+
+function uruguayDraw() {
+    uruguayStats.pj = uruguayStats.pj + 1
+    uruguayStats.pe = uruguayStats.pe + 1
+    uruguayStats.pts = uruguayStats.pts + 1
+
+    uruguayPlayedGames.textContent = uruguayStats.pj
+    uruguayDrawGames.textContent = uruguayStats.pe
+    uruguayPoints.textContent = uruguayStats.pts
+
+}
+
+//PARTIDO 1//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match43() {
+    scoreTeam85.addEventListener("change", function (e) {
+        resultlMatch43.espana = e.target.value
+        checkWinner43();
+
+    });
+
+    scoreTeam86.addEventListener("change", function (e) {
+        resultlMatch43.caboverde = e.target.value
+        checkWinner43();
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner43() {
+    if (resultlMatch43.espana === 0 || resultlMatch43.caboverde === 0) return;
+    if (resultlMatch43.espana > resultlMatch43.caboverde) {
+        result = resultlMatch43.espana - resultlMatch43.caboverde
+
+        espanaWon();
+        caboverdeLose();
+
+    } else if (resultlMatch43.espana < resultlMatch43.caboverde) {
+        result = resultlMatch43.caboverde - resultlMatch43.espana
+
+        espanaLose();
+        caboverdeWon();
+
+    } else {
+        espanaDraw();
+        caboverdeDraw();
+    }
+};
+
+match43();
+
+//accedemos a la card con el marcador
+const matchFortyThree = document.getElementById("match43")
+//inyectamos el resultado actualizado
+saveBtn43.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game43Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/espana-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${espanaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch43.espana}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch43.caboverde}<p/>
+                                    <div class="rival2team">${caboverdeStats.country}</div>
+                                    <div>
+                                        <img src="images/caboverde-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFortyThree.innerHTML = game43Saved;
+    saveToLocal43();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal43() {
+    localStorage.setItem("resultlMatch43", JSON.stringify(resultlMatch43));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("espanaSavedStats", JSON.stringify(espanaStats));
+    localStorage.setItem("caboverdeSavedStats", JSON.stringify(caboverdeStats));
+}
+
+function loadFromLocal43() {
+    //carga los datos guardados previamente 
+    resultlMatch43 = JSON.parse(localStorage.getItem("resultlMatch43"));
+    espanaStats = JSON.parse(localStorage.getItem("espanaSavedStats"));
+    caboverdeStats = JSON.parse(localStorage.getItem("caboverdeSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFortyThree.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/espana-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${espanaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch43.espana}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch43.caboverde}<p/>
+                                    <div class="rival2team">${caboverdeStats.country}</div>
+                                    <div>
+                                        <img src="images/caboverde-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    espanaPlayedGames.textContent = espanaStats.pj
+    espanaWonGames.textContent = espanaStats.pg
+    espanaDrawGames.textContent = espanaStats.pe
+    espanaLostGames.textContent = espanaStats.pp
+    espanaGoalDifference.textContent = espanaStats.dg
+    espanaPoints.textContent = espanaStats.pts
+
+    caboverdePlayedGames.textContent = caboverdeStats.pj
+    caboverdeWonGames.textContent = caboverdeStats.pg
+    caboverdeDrawGames.textContent = caboverdeStats.pe
+    caboverdeLostGames.textContent = caboverdeStats.pp
+    caboverdeGoalDifference.textContent = caboverdeStats.dg
+    caboverdePoints.textContent = caboverdeStats.pts
+}
+
+//PARTIDO 2//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match44() {
+    scoreTeam87.addEventListener("change", function (e) {
+        resultlMatch44.arabia = e.target.value
+        checkWinner44();
+
+    });
+
+    scoreTeam88.addEventListener("change", function (e) {
+        resultlMatch44.uruguay = e.target.value
+        checkWinner44();
+    });
+
+};
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner44() {
+    if (resultlMatch44.arabia === 0 || resultlMatch44.uruguay === 0) return;
+    if (resultlMatch44.arabia > resultlMatch44.uruguay) {
+        result = resultlMatch44.arabia - resultlMatch44.uruguay
+
+        arabiaWon();
+        uruguayLose();
+
+    } else if (resultlMatch44.arabia < resultlMatch44.uruguay) {
+        result = resultlMatch44.uruguay - resultlMatch44.arabia
+
+        uruguayWon();
+        arabiaLose();
+
+    } else {
+        arabiaDraw();
+        uruguayDraw();
+    }
+};
+
+match44();
+
+//accedemos a la card con el marcador
+const matchFortyFour = document.getElementById("match44")
+//inyectamos el resultado actualizado
+saveBtn44.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game44Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/arabia-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${arabiaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch44.arabia}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch44.uruguay}<p/>
+                                    <div class="rival2team">${uruguayStats.country}</div>
+                                    <div>
+                                        <img src="images/uruguay-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFortyFour.innerHTML = game44Saved;
+    saveToLocal44();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal44() {
+    localStorage.setItem("resultlMatch44", JSON.stringify(resultlMatch44));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("arabiaSavedStats", JSON.stringify(arabiaStats));
+    localStorage.setItem("uruguaySavedStats", JSON.stringify(uruguayStats));
+}
+
+function loadFromLocal44() {
+    //carga los datos guardados previamente 
+    resultlMatch44 = JSON.parse(localStorage.getItem("resultlMatch44"));
+    arabiaStats = JSON.parse(localStorage.getItem("arabiaSavedStats"));
+    uruguayStats = JSON.parse(localStorage.getItem("uruguaySavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFortyFour.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/arabia-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${arabiaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch44.arabia}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch44.uruguay}<p/>
+                                    <div class="rival2team">${uruguayStats.country}</div>
+                                    <div>
+                                        <img src="images/uruguay-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    arabiaPlayedGames.textContent = arabiaStats.pj
+    arabiaWonGames.textContent = arabiaStats.pg
+    arabiaDrawGames.textContent = arabiaStats.pe
+    arabiaLostGames.textContent = arabiaStats.pp
+    arabiaGoalDifference.textContent = arabiaStats.dg
+    arabiaPoints.textContent = arabiaStats.pts
+
+    uruguayPlayedGames.textContent = uruguayStats.pj
+    uruguayWonGames.textContent = uruguayStats.pg
+    uruguayDrawGames.textContent = uruguayStats.pe
+    uruguayLostGames.textContent = uruguayStats.pp
+    uruguayGoalDifference.textContent = uruguayStats.dg
+    uruguayPoints.textContent = uruguayStats.pts
+}
+
+//PARTIDO 3//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match45() {
+    scoreTeam89.addEventListener("change", function (e) {
+        resultlMatch45.espana = e.target.value
+        checkWinner45();
+
+    });
+
+    scoreTeam90.addEventListener("change", function (e) {
+        resultlMatch45.arabia = e.target.value
+        checkWinner45();
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner45() {
+    if (resultlMatch45.espana === 0 || resultlMatch45.arabia === 0) return;
+    if (resultlMatch45.espana > resultlMatch45.arabia) {
+        result = resultlMatch45.espana - resultlMatch45.arabia
+
+        espanaWonAgain();
+        arabiaLoseAgain();
+
+    } else if (resultlMatch45.espana < resultlMatch45.arabia) {
+        result = resultlMatch45.arabia - resultlMatch45.espana
+
+        espanaLoseAgain();
+        arabiaWonAgain();
+
+    } else {
+        espanaDraw();
+        arabiaDraw();
+    }
+};
+
+match45();
+
+//accedemos a la card con el marcador
+const matchFortyFive = document.getElementById("match45")
+//inyectamos el resultado actualizado
+saveBtn45.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game45Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/espana-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${espanaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch45.espana}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch45.arabia}<p/>
+                                    <div class="rival2team">${arabiaStats.country}</div>
+                                    <div>
+                                        <img src="images/arabia-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFortyFive.innerHTML = game45Saved;
+    saveToLocal45();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal45() {
+    localStorage.setItem("resultlMatch45", JSON.stringify(resultlMatch45));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("espanaSavedStats", JSON.stringify(espanaStats));
+    localStorage.setItem("arabiaSavedStats", JSON.stringify(arabiaStats));
+}
+
+function loadFromLocal45() {
+    //carga los datos guardados previamente 
+    resultlMatch45 = JSON.parse(localStorage.getItem("resultlMatch45"));
+    espanaStats = JSON.parse(localStorage.getItem("espanaSavedStats"));
+    arabiaStats = JSON.parse(localStorage.getItem("arabiaSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFortyFive.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/espana-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${espanaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch45.espana}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch45.arabia}<p/>
+                                    <div class="rival2team">${arabiaStats.country}</div>
+                                    <div>
+                                        <img src="images/arabia-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    espanaPlayedGames.textContent = espanaStats.pj
+    espanaWonGames.textContent = espanaStats.pg
+    espanaDrawGames.textContent = espanaStats.pe
+    espanaLostGames.textContent = espanaStats.pp
+    espanaGoalDifference.textContent = espanaStats.dg
+    espanaPoints.textContent = espanaStats.pts
+
+    arabiaPlayedGames.textContent = arabiaStats.pj
+    arabiaWonGames.textContent = arabiaStats.pg
+    arabiaDrawGames.textContent = arabiaStats.pe
+    arabiaLostGames.textContent = arabiaStats.pp
+    arabiaGoalDifference.textContent = arabiaStats.dg
+    arabiaPoints.textContent = arabiaStats.pts
+}
+
+//PARTIDO 4//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match46() {
+
+    scoreTeam91.addEventListener("change", function (e) {
+        resultlMatch46.uruguay = e.target.value
+        checkWinner46();
+    });
+
+    scoreTeam92.addEventListener("change", function (e) {
+        resultlMatch46.caboverde = e.target.value
+        checkWinner46();
+
+    });
+
+};
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner46() {
+    if (resultlMatch46.uruguay === 0 || resultlMatch46.caboverde === 0) return;
+    if (resultlMatch46.uruguay > resultlMatch46.caboverde) {
+        result = resultlMatch46.uruguay - resultlMatch46.caboverde
+
+        uruguayWonAgain();
+        caboverdeLoseAgain();
+
+    } else if (resultlMatch46.uruguay < resultlMatch46.caboverde) {
+        result = resultlMatch46.caboverde - resultlMatch46.uruguay
+
+        caboverdeWonAgain();
+        uruguayLoseAgain();
+
+    } else {
+        caboverdeDraw();
+        uruguayDraw();
+    }
+};
+
+match46();
+
+//accedemos a la card con el marcador
+const matchFortySix = document.getElementById("match46")
+//inyectamos el resultado actualizado
+saveBtn46.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game46Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/uruguay-bandera.png" >
+                                    </div>
+                                    <div class="rival2team">${uruguayStats.country}</div>
+                                    <p class="rival2score">${resultlMatch46.uruguay}<p/>
+                                    <span>-</span>
+                                    <p class="rival1score">${resultlMatch46.caboverde}<p/>
+                                    <div class="rival1team">${caboverdeStats.country}</div>
+                                    <div>
+                                        <img src="images/caboverde-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFortySix.innerHTML = game46Saved;
+    saveToLocal46();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal46() {
+    localStorage.setItem("resultlMatch46", JSON.stringify(resultlMatch46));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("caboverdeSavedStats", JSON.stringify(caboverdeStats));
+    localStorage.setItem("uruguaySavedStats", JSON.stringify(uruguayStats));
+}
+
+function loadFromLocal46() {
+    //carga los datos guardados previamente 
+    resultlMatch46 = JSON.parse(localStorage.getItem("resultlMatch46"));
+    caboverdeStats = JSON.parse(localStorage.getItem("caboverdeSavedStats"));
+    uruguayStats = JSON.parse(localStorage.getItem("uruguaySavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFortySix.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/uruguay-bandera.png" >
+                                    </div>
+                                    <div class="rival2team">${uruguayStats.country}</div>
+                                    <p class="rival2score">${resultlMatch46.uruguay}<p/>
+                                    <span>-</span>
+                                    <p class="rival1score">${resultlMatch46.caboverde}<p/>
+                                    <div class="rival1team">${caboverdeStats.country}</div>
+                                    <div>
+                                        <img src="images/caboverde-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    caboverdePlayedGames.textContent = caboverdeStats.pj
+    caboverdeWonGames.textContent = caboverdeStats.pg
+    caboverdeDrawGames.textContent = caboverdeStats.pe
+    caboverdeLostGames.textContent = caboverdeStats.pp
+    caboverdeGoalDifference.textContent = caboverdeStats.dg
+    caboverdePoints.textContent = caboverdeStats.pts
+
+    uruguayPlayedGames.textContent = uruguayStats.pj
+    uruguayWonGames.textContent = uruguayStats.pg
+    uruguayDrawGames.textContent = uruguayStats.pe
+    uruguayLostGames.textContent = uruguayStats.pp
+    uruguayGoalDifference.textContent = uruguayStats.dg
+    uruguayPoints.textContent = uruguayStats.pts
+}
+
+//PARTIDO 5//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match47() {
+
+    scoreTeam93.addEventListener("change", function (e) {
+        resultlMatch47.caboverde = e.target.value
+        checkWinner47();
+
+    });
+
+    scoreTeam94.addEventListener("change", function (e) {
+        resultlMatch47.arabia = e.target.value
+        checkWinner47();
+    });
+
+};
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner47() {
+    if (resultlMatch47.arabia === 0 || resultlMatch47.caboverde === 0) return;
+    if (resultlMatch47.arabia > resultlMatch47.caboverde) {
+        result = resultlMatch47.arabia - resultlMatch47.caboverde
+
+        arabiaWonAgain();
+        caboverdeLoseAgain();
+
+    } else if (resultlMatch47.arabia < resultlMatch47.caboverde) {
+        result = resultlMatch47.caboverde - resultlMatch47.arabia
+
+        caboverdeWonAgain();
+        arabiaLoseAgain();
+
+    } else {
+        caboverdeDraw();
+        arabiaDraw();
+    }
+};
+
+match47();
+
+//accedemos a la card con el marcador
+const matchFortySeven = document.getElementById("match47")
+//inyectamos el resultado actualizado
+saveBtn47.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game47Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/caboverde-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${caboverdeStats.country}</div>
+                                    <p class="rival1score">${resultlMatch47.caboverde}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch47.arabia}<p/>
+                                    <div class="rival2team">${arabiaStats.country}</div>
+
+                                    <div>
+                                        <img src="images/arabia-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFortySeven.innerHTML = game47Saved;
+    saveToLocal47();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal47() {
+    localStorage.setItem("resultlMatch47", JSON.stringify(resultlMatch47));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("caboverdeSavedStats", JSON.stringify(caboverdeStats));
+    localStorage.setItem("arabiaSavedStats", JSON.stringify(arabiaStats));
+}
+
+function loadFromLocal47() {
+    //carga los datos guardados previamente 
+    resultlMatch47 = JSON.parse(localStorage.getItem("resultlMatch47"));
+    caboverdeStats = JSON.parse(localStorage.getItem("caboverdeSavedStats"));
+    arabiaStats = JSON.parse(localStorage.getItem("arabiaSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFortySeven.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/caboverde-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${caboverdeStats.country}</div>
+                                    <p class="rival1score">${resultlMatch47.caboverde}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch47.arabia}<p/>
+                                    <div class="rival2team">${arabiaStats.country}</div>
+
+                                    <div>
+                                        <img src="images/arabia-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    caboverdePlayedGames.textContent = caboverdeStats.pj
+    caboverdeWonGames.textContent = caboverdeStats.pg
+    caboverdeDrawGames.textContent = caboverdeStats.pe
+    caboverdeLostGames.textContent = caboverdeStats.pp
+    caboverdeGoalDifference.textContent = caboverdeStats.dg
+    caboverdePoints.textContent = caboverdeStats.pts
+
+    arabiaPlayedGames.textContent = arabiaStats.pj
+    arabiaWonGames.textContent = arabiaStats.pg
+    arabiaDrawGames.textContent = arabiaStats.pe
+    arabiaLostGames.textContent = arabiaStats.pp
+    arabiaGoalDifference.textContent = arabiaStats.dg
+    arabiaPoints.textContent = arabiaStats.pts
+}
+
+//PARTIDO 6//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match48() {
+    scoreTeam95.addEventListener("change", function (e) {
+        resultlMatch48.uruguay = e.target.value
+        checkWinner48();
+    });
+
+    scoreTeam96.addEventListener("change", function (e) {
+        resultlMatch48.espana = e.target.value
+        checkWinner48();
+
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner48() {
+    if (resultlMatch48.uruguay === 0 || resultlMatch48.espana === 0) return;
+    if (resultlMatch48.uruguay > resultlMatch48.espana) {
+        result = resultlMatch48.uruguay - resultlMatch48.espana
+
+        uruguayWonAgain();
+        espanaLoseAgain();
+
+    } else if (resultlMatch48.uruguay < resultlMatch48.espana) {
+        result = resultlMatch48.espana - resultlMatch48.uruguay
+
+        espanaWonAgain();
+        uruguayLoseAgain();
+
+    } else {
+        espanaDraw();
+        uruguayDraw();
+    }
+};
+
+match48();
+
+//accedemos a la card con el marcador
+const matchFortyEight = document.getElementById("match48")
+//inyectamos el resultado actualizado
+saveBtn48.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game48Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/uruguay-bandera.png" >
+                                    </div>
+                                    <div class="rival2team">${uruguayStats.country}</div>
+                                    <p class="rival2score">${resultlMatch48.uruguay}<p/>
+                                    <span>-</span>
+                                    <p class="rival1score">${resultlMatch48.espana}<p/>
+                                    <div class="rival1team">${espanaStats.country}</div>
+                                    <div>
+                                        <img src="images/espana-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFortyEight.innerHTML = game48Saved;
+    saveToLocal48();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal48() {
+    localStorage.setItem("resultlMatch48", JSON.stringify(resultlMatch48));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("espanaSavedStats", JSON.stringify(espanaStats));
+    localStorage.setItem("uruguaySavedStats", JSON.stringify(uruguayStats));
+}
+
+function loadFromLocal48() {
+    //carga los datos guardados previamente 
+    resultlMatch48 = JSON.parse(localStorage.getItem("resultlMatch48"));
+    espanaStats = JSON.parse(localStorage.getItem("espanaSavedStats"));
+    uruguayStats = JSON.parse(localStorage.getItem("uruguaySavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFortyEight.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/uruguay-bandera.png" >
+                                    </div>
+                                    <div class="rival2team">${uruguayStats.country}</div>
+                                    <p class="rival2score">${resultlMatch48.uruguay}<p/>
+                                    <span>-</span>
+                                    <p class="rival1score">${resultlMatch48.espana}<p/>
+                                    <div class="rival1team">${espanaStats.country}</div>
+                                    <div>
+                                        <img src="images/espana-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    espanaPlayedGames.textContent = espanaStats.pj
+    espanaWonGames.textContent = espanaStats.pg
+    espanaDrawGames.textContent = espanaStats.pe
+    espanaLostGames.textContent = espanaStats.pp
+    espanaGoalDifference.textContent = espanaStats.dg
+    espanaPoints.textContent = espanaStats.pts
+
+    uruguayPlayedGames.textContent = uruguayStats.pj
+    uruguayWonGames.textContent = uruguayStats.pg
+    uruguayDrawGames.textContent = uruguayStats.pe
+    uruguayLostGames.textContent = uruguayStats.pp
+    uruguayGoalDifference.textContent = uruguayStats.dg
+    uruguayPoints.textContent = uruguayStats.pts
+}
+
+//GRUPO I //
+
+//FUNCIONES PARA ACTUALIZAR Y RENDERIZAR LUEGO DEL RESULTADO DE LOS PARTIDOS
+
+function franciaWon() {
+    franciaStats.pj = franciaStats.pj + 1
+    franciaStats.pg = franciaStats.pg + 1
+    franciaStats.pts = franciaStats.pts + 3
+    franciaStats.dg = result
+
+    franciaPlayedGames.textContent = franciaStats.pj
+    franciaWonGames.textContent = franciaStats.pg
+    franciaGoalDifference.textContent = franciaStats.dg
+    franciaPoints.textContent = franciaStats.pts
+
+}
+
+function franciaWonAgain() {
+    franciaStats.pj = franciaStats.pj + 1
+    franciaStats.pg = franciaStats.pg + 1
+    franciaStats.pts = franciaStats.pts + 3
+    franciaStats.dg = franciaStats.dg + result
+
+    franciaPlayedGames.textContent = franciaStats.pj
+    franciaWonGames.textContent = franciaStats.pg
+    franciaGoalDifference.textContent = franciaStats.dg
+    franciaPoints.textContent = franciaStats.pts
+
+
+}
+
+function franciaLose() {
+    franciaStats.pj = franciaStats.pj + 1
+    franciaStats.pp = franciaStats.pp + 1
+    franciaStats.dg = -result
+
+    franciaPlayedGames.textContent = franciaStats.pj
+    franciaLostGames.textContent = franciaStats.pp
+    franciaGoalDifference.textContent = franciaStats.dg
+    franciaPoints.textContent = franciaStats.pts
+
+}
+
+function franciaLoseAgain() {
+    franciaStats.pj = franciaStats.pj + 1
+    franciaStats.pp = franciaStats.pp + 1
+    franciaStats.dg = franciaStats.dg - result
+
+    franciaPlayedGames.textContent = franciaStats.pj
+    franciaLostGames.textContent = franciaStats.pp
+    franciaGoalDifference.textContent = franciaStats.dg
+    franciaPoints.textContent = franciaStats.pts
+}
+
+function franciaDraw() {
+    franciaStats.pj = franciaStats.pj + 1
+    franciaStats.pe = franciaStats.pe + 1
+    franciaStats.pts = franciaStats.pts + 1
+
+    franciaPlayedGames.textContent = franciaStats.pj
+    franciaDrawGames.textContent = franciaStats.pe
+    franciaPoints.textContent = franciaStats.pts
+}
+
+function senegalWon() {
+    senegalStats.pj = senegalStats.pj + 1
+    senegalStats.pg = senegalStats.pg + 1
+    senegalStats.pts = senegalStats.pts + 3
+    senegalStats.dg = result
+
+    senegalPlayedGames.textContent = senegalStats.pj
+    senegalWonGames.textContent = senegalStats.pg
+    senegalGoalDifference.textContent = senegalStats.dg
+    senegalPoints.textContent = senegalStats.pts
+}
+
+function senegalWonAgain() {
+    senegalStats.pj = senegalStats.pj + 1
+    senegalStats.pg = senegalStats.pg + 1
+    senegalStats.pts = senegalStats.pts + 3
+    senegalStats.dg = senegalStats.dg + result
+
+    senegalPlayedGames.textContent = senegalStats.pj
+    senegalWonGames.textContent = senegalStats.pg
+    senegalGoalDifference.textContent = senegalStats.dg
+    senegalPoints.textContent = senegalStats.pts
+}
+
+function senegalLose() {
+    senegalStats.pj = senegalStats.pj + 1
+    senegalStats.pp = senegalStats.pp + 1
+    senegalStats.dg = -result
+
+    senegalPlayedGames.textContent = senegalStats.pj
+    senegalLostGames.textContent = senegalStats.pp
+    senegalGoalDifference.textContent = senegalStats.dg
+    senegalPoints.textContent = senegalStats.pts
+
+}
+
+function senegalLoseAgain() {
+    senegalStats.pj = senegalStats.pj + 1
+    senegalStats.pp = senegalStats.pp + 1
+    senegalStats.dg = senegalStats.dg - result
+
+    senegalPlayedGames.textContent = senegalStats.pj
+    senegalLostGames.textContent = senegalStats.pp
+    senegalGoalDifference.textContent = senegalStats.dg
+    senegalPoints.textContent = senegalStats.pts
+
+}
+
+function senegalDraw() {
+    senegalStats.pj = senegalStats.pj + 1
+    senegalStats.pe = senegalStats.pe + 1
+    senegalStats.pts = senegalStats.pts + 1
+
+    senegalPlayedGames.textContent = senegalStats.pj
+    senegalDrawGames.textContent = senegalStats.pe
+    senegalPoints.textContent = senegalStats.pts
+
+}
+
+function irakWon() {
+    irakStats.pj = irakStats.pj + 1
+    irakStats.pg = irakStats.pg + 1
+    irakStats.pts = irakStats.pts + 3
+    irakStats.dg = result
+
+    irakPlayedGames.textContent = irakStats.pj
+    irakWonGames.textContent = irakStats.pg
+    irakGoalDifference.textContent = irakStats.dg
+    irakPoints.textContent = irakStats.pts
+
+
+}
+
+function irakWonAgain() {
+    irakStats.pj = irakStats.pj + 1
+    irakStats.pg = irakStats.pg + 1
+    irakStats.pts = irakStats.pts + 3
+    irakStats.dg = irakStats.dg + result
+
+    irakPlayedGames.textContent = irakStats.pj
+    irakWonGames.textContent = irakStats.pg
+    irakGoalDifference.textContent = irakStats.dg
+    irakPoints.textContent = irakStats.pts
+
+}
+
+function irakLose() {
+    irakStats.pj = irakStats.pj + 1
+    irakStats.pp = irakStats.pp + 1
+    irakStats.dg = -result
+
+    irakPlayedGames.textContent = irakStats.pj
+    irakLostGames.textContent = irakStats.pp
+    irakGoalDifference.textContent = irakStats.dg
+    irakPoints.textContent = irakStats.pts
+
+}
+
+function irakLoseAgain() {
+    irakStats.pj = irakStats.pj + 1
+    irakStats.pp = irakStats.pp + 1
+    irakStats.dg = irakStats.dg - result
+
+    irakPlayedGames.textContent = irakStats.pj
+    irakLostGames.textContent = irakStats.pp
+    irakGoalDifference.textContent = irakStats.dg
+    irakPoints.textContent = irakStats.pts
+}
+
+function irakDraw() {
+    irakStats.pj = irakStats.pj + 1
+    irakStats.pe = irakStats.pe + 1
+    irakStats.pts = irakStats.pts + 1
+
+    irakPlayedGames.textContent = irakStats.pj
+    irakDrawGames.textContent = irakStats.pe
+    irakPoints.textContent = irakStats.pts
+}
+
+function noruegaWon() {
+    noruegaStats.pj = noruegaStats.pj + 1
+    noruegaStats.pg = noruegaStats.pg + 1
+    noruegaStats.pts = noruegaStats.pts + 3
+    noruegaStats.dg = result
+
+    noruegaPlayedGames.textContent = noruegaStats.pj
+    noruegaWonGames.textContent = noruegaStats.pg
+    noruegaGoalDifference.textContent = noruegaStats.dg
+    noruegaPoints.textContent = noruegaStats.pts
+}
+
+function noruegaWonAgain() {
+    noruegaStats.pj = noruegaStats.pj + 1
+    noruegaStats.pg = noruegaStats.pg + 1
+    noruegaStats.pts = noruegaStats.pts + 3
+    noruegaStats.dg = noruegaStats.dg + result
+
+    noruegaPlayedGames.textContent = noruegaStats.pj
+    noruegaWonGames.textContent = noruegaStats.pg
+    noruegaGoalDifference.textContent = noruegaStats.dg
+    noruegaPoints.textContent = noruegaStats.pts
+}
+
+function noruegaLose() {
+    noruegaStats.pj = noruegaStats.pj + 1
+    noruegaStats.pp = noruegaStats.pp + 1
+    noruegaStats.dg = -result
+
+    noruegaPlayedGames.textContent = noruegaStats.pj
+    noruegaLostGames.textContent = noruegaStats.pp
+    noruegaGoalDifference.textContent = noruegaStats.dg
+    noruegaPoints.textContent = noruegaStats.pts
+
+}
+
+function noruegaLoseAgain() {
+    noruegaStats.pj = noruegaStats.pj + 1
+    noruegaStats.pp = noruegaStats.pp + 1
+    noruegaStats.dg = noruegaStats.dg - result
+
+    noruegaPlayedGames.textContent = noruegaStats.pj
+    noruegaLostGames.textContent = noruegaStats.pp
+    noruegaGoalDifference.textContent = noruegaStats.dg
+    noruegaPoints.textContent = noruegaStats.pts
+
+}
+
+function noruegaDraw() {
+    noruegaStats.pj = noruegaStats.pj + 1
+    noruegaStats.pe = noruegaStats.pe + 1
+    noruegaStats.pts = noruegaStats.pts + 1
+
+    noruegaPlayedGames.textContent = noruegaStats.pj
+    noruegaDrawGames.textContent = noruegaStats.pe
+    noruegaPoints.textContent = noruegaStats.pts
+
+}
+
+
+//PARTIDO 1//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match49() {
+    scoreTeam97.addEventListener("change", function (e) {
+        resultlMatch49.francia = e.target.value
+        checkWinner49();
+    });
+
+    scoreTeam98.addEventListener("change", function (e) {
+        resultlMatch49.senegal = e.target.value
+        checkWinner49();
+
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner49() {
+    if (resultlMatch49.francia === 0 || resultlMatch49.senegal === 0) return;
+    if (resultlMatch49.francia > resultlMatch49.senegal) {
+        result = resultlMatch49.francia - resultlMatch49.senegal
+
+        franciaWon();
+        senegalLose();
+
+    } else if (resultlMatch49.francia < resultlMatch49.senegal) {
+        result = resultlMatch49.senegal - resultlMatch49.francia
+
+        senegalWon();
+        franciaLose();
+
+    } else {
+        franciaDraw();
+        senegalDraw();
+    }
+};
+
+match49();
+
+//accedemos a la card con el marcador
+const matchFortyNine = document.getElementById("match49")
+//inyectamos el resultado actualizado
+saveBtn49.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game49Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/francia-bandera.png" >
+                                    </div>
+                                    <div class="rival2team">${franciaStats.country}</div>
+                                    <p class="rival2score">${resultlMatch49.francia}<p/>
+                                    <span>-</span>
+                                    <p class="rival1score">${resultlMatch49.senegal}<p/>
+                                    <div class="rival1team">${senegalStats.country}</div>
+                                    <div>
+                                        <img src="images/senegal-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFortyNine.innerHTML = game49Saved;
+    saveToLocal49();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal49() {
+    localStorage.setItem("resultlMatch49", JSON.stringify(resultlMatch49));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("franciaSavedStats", JSON.stringify(franciaStats));
+    localStorage.setItem("senegalSavedStats", JSON.stringify(senegalStats));
+}
+
+function loadFromLocal49() {
+    //carga los datos guardados previamente 
+    resultlMatch49 = JSON.parse(localStorage.getItem("resultlMatch49"));
+    franciaStats = JSON.parse(localStorage.getItem("franciaSavedStats"));
+    senegalStats = JSON.parse(localStorage.getItem("senegalSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFortyNine.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/francia-bandera.png" >
+                                    </div>
+                                    <div class="rival2team">${franciaStats.country}</div>
+                                    <p class="rival2score">${resultlMatch49.francia}<p/>
+                                    <span>-</span>
+                                    <p class="rival1score">${resultlMatch49.senegal}<p/>
+                                    <div class="rival1team">${senegalStats.country}</div>
+                                    <div>
+                                        <img src="images/senegal-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    franciaPlayedGames.textContent = franciaStats.pj
+    franciaWonGames.textContent = franciaStats.pg
+    franciaDrawGames.textContent = franciaStats.pe
+    franciaLostGames.textContent = franciaStats.pp
+    franciaGoalDifference.textContent = franciaStats.dg
+    franciaPoints.textContent = franciaStats.pts
+
+    senegalPlayedGames.textContent = senegalStats.pj
+    senegalWonGames.textContent = senegalStats.pg
+    senegalDrawGames.textContent = senegalStats.pe
+    senegalLostGames.textContent = senegalStats.pp
+    senegalGoalDifference.textContent = senegalStats.dg
+    senegalPoints.textContent = senegalStats.pts
+}
+
+//PARTIDO 2//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match50() {
+    scoreTeam99.addEventListener("change", function (e) {
+        resultlMatch50.irak = e.target.value
+        checkWinner50();
+    });
+
+    scoreTeam100.addEventListener("change", function (e) {
+        resultlMatch50.noruega = e.target.value
+        checkWinner50();
+
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner50() {
+    if (resultlMatch50.irak === 0 || resultlMatch50.noruega === 0) return;
+    if (resultlMatch50.irak > resultlMatch50.noruega) {
+        result = resultlMatch50.irak - resultlMatch50.noruega
+
+        irakWon();
+        noruegaLose();
+
+    } else if (resultlMatch50.irak < resultlMatch50.noruega) {
+        result = resultlMatch50.noruega - resultlMatch50.irak
+
+        noruegaWon();
+        irakLose();
+
+    } else {
+        irakDraw();
+        noruegaDraw();
+    }
+};
+
+match50();
+
+//accedemos a la card con el marcador
+const matchFifty = document.getElementById("match50")
+//inyectamos el resultado actualizado
+saveBtn50.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game50Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/irak-bandera.png" >
+                                    </div>
+                                    <div class="rival2team">${irakStats.country}</div>
+                                    <p class="rival2score">${resultlMatch50.irak}<p/>
+                                    <span>-</span>
+                                    <p class="rival1score">${resultlMatch50.noruega}<p/>
+                                    <div class="rival1team">${noruegaStats.country}</div>
+                                    <div>
+                                        <img src="images/noruega-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFifty.innerHTML = game50Saved;
+    saveToLocal50();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal50() {
+    localStorage.setItem("resultlMatch50", JSON.stringify(resultlMatch50));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("irakSavedStats", JSON.stringify(irakStats));
+    localStorage.setItem("noruegaSavedStats", JSON.stringify(noruegaStats));
+}
+
+function loadFromLocal50() {
+    //carga los datos guardados previamente 
+    resultlMatch50 = JSON.parse(localStorage.getItem("resultlMatch50"));
+    irakStats = JSON.parse(localStorage.getItem("irakSavedStats"));
+    noruegaStats = JSON.parse(localStorage.getItem("noruegaSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFifty.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/irak-bandera.png" >
+                                    </div>
+                                    <div class="rival2team">${irakStats.country}</div>
+                                    <p class="rival2score">${resultlMatch50.irak}<p/>
+                                    <span>-</span>
+                                    <p class="rival1score">${resultlMatch50.noruega}<p/>
+                                    <div class="rival1team">${noruegaStats.country}</div>
+                                    <div>
+                                        <img src="images/noruega-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    irakPlayedGames.textContent = irakStats.pj
+    irakWonGames.textContent = irakStats.pg
+    irakDrawGames.textContent = irakStats.pe
+    irakLostGames.textContent = irakStats.pp
+    irakGoalDifference.textContent = irakStats.dg
+    irakPoints.textContent = irakStats.pts
+
+    noruegaPlayedGames.textContent = noruegaStats.pj
+    noruegaWonGames.textContent = noruegaStats.pg
+    noruegaDrawGames.textContent = noruegaStats.pe
+    noruegaLostGames.textContent = noruegaStats.pp
+    noruegaGoalDifference.textContent = noruegaStats.dg
+    noruegaPoints.textContent = noruegaStats.pts
+}
+
+//PARTIDO 3//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match51() {
+    scoreTeam101.addEventListener("change", function (e) {
+        resultlMatch51.francia = e.target.value
+        checkWinner51();
+    });
+
+    scoreTeam102.addEventListener("change", function (e) {
+        resultlMatch51.irak = e.target.value
+        checkWinner51();
+
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner51() {
+    if (resultlMatch51.francia === 0 || resultlMatch51.irak === 0) return;
+    if (resultlMatch51.francia > resultlMatch51.irak) {
+        result = resultlMatch51.francia - resultlMatch51.irak
+
+        franciaWonAgain();
+        irakLoseAgain();
+
+    } else if (resultlMatch51.francia < resultlMatch51.irak) {
+        result = resultlMatch51.irak - resultlMatch51.francia
+
+        irakWonAgain();
+        franciaLoseAgain();
+
+    } else {
+        franciaDraw();
+        irakDraw();
+    }
+};
+
+match51();
+
+//accedemos a la card con el marcador
+const matchFiftyOne = document.getElementById("match51")
+//inyectamos el resultado actualizado
+saveBtn51.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game51Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/francia-bandera.png" >
+                                    </div>
+                                    <div class="rival2team">${franciaStats.country}</div>
+                                    <p class="rival2score">${resultlMatch51.francia}<p/>
+                                    <span>-</span>
+                                    <p class="rival1score">${resultlMatch51.irak}<p/>
+                                    <div class="rival1team">${irakStats.country}</div>
+                                    <div>
+                                        <img src="images/irak-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFiftyOne.innerHTML = game51Saved;
+    saveToLocal51();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal51() {
+    localStorage.setItem("resultlMatch51", JSON.stringify(resultlMatch51));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("franciaSavedStats", JSON.stringify(franciaStats));
+    localStorage.setItem("irakSavedStats", JSON.stringify(irakStats));
+}
+
+function loadFromLocal51() {
+    //carga los datos guardados previamente 
+    resultlMatch51 = JSON.parse(localStorage.getItem("resultlMatch51"));
+    franciaStats = JSON.parse(localStorage.getItem("franciaSavedStats"));
+    irakStats = JSON.parse(localStorage.getItem("irakSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFiftyOne.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/francia-bandera.png" >
+                                    </div>
+                                    <div class="rival2team">${franciaStats.country}</div>
+                                    <p class="rival2score">${resultlMatch51.francia}<p/>
+                                    <span>-</span>
+                                    <p class="rival1score">${resultlMatch51.irak}<p/>
+                                    <div class="rival1team">${irakStats.country}</div>
+                                    <div>
+                                        <img src="images/irak-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    franciaPlayedGames.textContent = franciaStats.pj
+    franciaWonGames.textContent = franciaStats.pg
+    franciaDrawGames.textContent = franciaStats.pe
+    franciaLostGames.textContent = franciaStats.pp
+    franciaGoalDifference.textContent = franciaStats.dg
+    franciaPoints.textContent = franciaStats.pts
+
+    irakPlayedGames.textContent = irakStats.pj
+    irakWonGames.textContent = irakStats.pg
+    irakDrawGames.textContent = irakStats.pe
+    irakLostGames.textContent = irakStats.pp
+    irakGoalDifference.textContent = irakStats.dg
+    irakPoints.textContent = irakStats.pts
+}
+
+//PARTIDO 4//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match52() {
+
+    scoreTeam103.addEventListener("change", function (e) {
+        resultlMatch52.noruega = e.target.value
+        checkWinner52();
+
+    });
+
+    scoreTeam104.addEventListener("change", function (e) {
+        resultlMatch52.senegal = e.target.value
+        checkWinner52();
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner52() {
+    if (resultlMatch52.senegal === 0 || resultlMatch52.noruega === 0) return;
+    if (resultlMatch52.senegal > resultlMatch52.noruega) {
+        result = resultlMatch52.senegal - resultlMatch52.noruega
+
+        senegalWonAgain();
+        noruegaLoseAgain();
+
+    } else if (resultlMatch52.senegal < resultlMatch52.noruega) {
+        result = resultlMatch52.noruega - resultlMatch52.senegal
+
+        noruegaWonAgain();
+        senegalLoseAgain();
+
+    } else {
+        senegalDraw();
+        noruegaDraw();
+    }
+};
+
+match52();
+
+//accedemos a la card con el marcador
+const matchFiftyTwo = document.getElementById("match52")
+//inyectamos el resultado actualizado
+saveBtn52.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game52Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/noruega-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${noruegaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch52.noruega}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch52.senegal}<p/>
+                                    <div class="rival2team">${senegalStats.country}</div>
+                                    <div>
+                                        <img src="images/senegal-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFiftyTwo.innerHTML = game52Saved;
+    saveToLocal52();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal52() {
+    localStorage.setItem("resultlMatch52", JSON.stringify(resultlMatch52));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("senegalSavedStats", JSON.stringify(senegalStats));
+    localStorage.setItem("noruegaSavedStats", JSON.stringify(noruegaStats));
+}
+
+function loadFromLocal52() {
+    //carga los datos guardados previamente 
+    resultlMatch52 = JSON.parse(localStorage.getItem("resultlMatch52"));
+    senegalStats = JSON.parse(localStorage.getItem("senegalSavedStats"));
+    noruegaStats = JSON.parse(localStorage.getItem("noruegaSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFiftyTwo.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/noruega-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${noruegaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch52.noruega}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch52.senegal}<p/>
+                                    <div class="rival2team">${senegalStats.country}</div>
+                                    <div>
+                                        <img src="images/senegal-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    senegalPlayedGames.textContent = senegalStats.pj
+    senegalWonGames.textContent = senegalStats.pg
+    senegalDrawGames.textContent = senegalStats.pe
+    senegalLostGames.textContent = senegalStats.pp
+    senegalGoalDifference.textContent = senegalStats.dg
+    senegalPoints.textContent = senegalStats.pts
+
+    noruegaPlayedGames.textContent = noruegaStats.pj
+    noruegaWonGames.textContent = noruegaStats.pg
+    noruegaDrawGames.textContent = noruegaStats.pe
+    noruegaLostGames.textContent = noruegaStats.pp
+    noruegaGoalDifference.textContent = noruegaStats.dg
+    noruegaPoints.textContent = noruegaStats.pts
+}
+
+
+//PARTIDO 5//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match53() {
+
+    scoreTeam105.addEventListener("change", function (e) {
+        resultlMatch53.noruega = e.target.value
+        checkWinner53();
+
+    });
+
+    scoreTeam106.addEventListener("change", function (e) {
+        resultlMatch53.francia = e.target.value
+        checkWinner53();
+    });
+
+};
+
+
+//funcion para validar quien gano y actualizar la UI
+function checkWinner53() {
+    if (resultlMatch53.francia === 0 || resultlMatch53.noruega === 0) return;
+    if (resultlMatch53.francia > resultlMatch53.noruega) {
+        result = resultlMatch53.francia - resultlMatch53.noruega
+
+        franciaWonAgain();
+        noruegaLoseAgain();
+
+    } else if (resultlMatch53.francia < resultlMatch53.noruega) {
+        result = resultlMatch53.noruega - resultlMatch53.francia
+
+        noruegaWonAgain();
+        franciaLoseAgain();
+
+    } else {
+        franciaDraw();
+        noruegaDraw();
+    }
+};
+
+match53();
+
+//accedemos a la card con el marcador
+const matchFiftyThree = document.getElementById("match53")
+//inyectamos el resultado actualizado
+saveBtn53.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game53Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/noruega-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${noruegaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch53.noruega}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch53.francia}<p/>
+                                    <div class="rival2team">${franciaStats.country}</div>
+                                    <div>
+                                        <img src="images/francia-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFiftyThree.innerHTML = game53Saved;
+    saveToLocal53();
+});
+
+//LOCAL STORAGE//
+
+function saveToLocal53() {
+    localStorage.setItem("resultlMatch53", JSON.stringify(resultlMatch53));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("franciaSavedStats", JSON.stringify(franciaStats));
+    localStorage.setItem("noruegaSavedStats", JSON.stringify(noruegaStats));
+}
+
+function loadFromLocal53() {
+    //carga los datos guardados previamente 
+    resultlMatch53 = JSON.parse(localStorage.getItem("resultlMatch53"));
+    franciaStats = JSON.parse(localStorage.getItem("franciaSavedStats"));
+    noruegaStats = JSON.parse(localStorage.getItem("noruegaSavedStats"));
+
+    //recarga la UI con los datos cargados
+    matchFiftyThree.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/noruega-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${noruegaStats.country}</div>
+                                    <p class="rival1score">${resultlMatch53.noruega}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch53.francia}<p/>
+                                    <div class="rival2team">${franciaStats.country}</div>
+                                    <div>
+                                        <img src="images/francia-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    franciaPlayedGames.textContent = franciaStats.pj
+    franciaWonGames.textContent = franciaStats.pg
+    franciaDrawGames.textContent = franciaStats.pe
+    franciaLostGames.textContent = franciaStats.pp
+    franciaGoalDifference.textContent = franciaStats.dg
+    franciaPoints.textContent = franciaStats.pts
+
+    noruegaPlayedGames.textContent = noruegaStats.pj
+    noruegaWonGames.textContent = noruegaStats.pg
+    noruegaDrawGames.textContent = noruegaStats.pe
+    noruegaLostGames.textContent = noruegaStats.pp
+    noruegaGoalDifference.textContent = noruegaStats.dg
+    noruegaPoints.textContent = noruegaStats.pts
+}
+
+//PARTIDO 6//
+
+//funcion para caputrar el valor de los imputs--resultado final del partido//
+
+function match54() {
+
+    scoreTeam107.addEventListener("change", function (e) {
+        resultlMatch54.senegal = e.target.value
+        checkWinner54();
+    });
+
+    scoreTeam108.addEventListener("change", function (e) {
+        resultlMatch54.irak = e.target.value
+        checkWinner54();
+
+    });
 
 
 
+};
 
 
+//funcion para validar quien gano y actualizar la UI
+function checkWinner54() {
+    if (resultlMatch54.senegal === 0 || resultlMatch54.irak === 0) return;
+    if (resultlMatch54.senegal > resultlMatch54.irak) {
+        result = resultlMatch54.senegal - resultlMatch54.irak
 
+        senegalWonAgain();
+        irakLoseAgain();
 
+    } else if (resultlMatch54.senegal < resultlMatch54.irak) {
+        result = resultlMatch54.irak - resultlMatch54.senegal
 
+        irakWonAgain();
+        senegalLoseAgain();
 
+    } else {
+        senegalDraw();
+        irakDraw();
+    }
+};
 
+match54();
 
+//accedemos a la card con el marcador
+const matchFiftyFour = document.getElementById("match54")
+//inyectamos el resultado actualizado
+saveBtn54.addEventListener("click", (e) => {
+    e.preventDefault();
+    let game54Saved = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/senegal-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${senegalStats.country}</div>
+                                    <p class="rival1score">${resultlMatch54.senegal}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch54.irak}<p/>
+                                    <div class="rival2team">${irakStats.country}</div>
+                                    <div>
+                                        <img src="images/irak-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+    matchFiftyFour.innerHTML = game54Saved;
+    saveToLocal54();
+});
 
+//LOCAL STORAGE//
 
+function saveToLocal54() {
+    localStorage.setItem("resultlMatch54", JSON.stringify(resultlMatch54));
+    //guarda las stats de amgbos luego del partido en local storage
+    localStorage.setItem("senegalSavedStats", JSON.stringify(senegalStats));
+    localStorage.setItem("irakSavedStats", JSON.stringify(irakStats));
+}
 
+function loadFromLocal54() {
+    //carga los datos guardados previamente 
+    resultlMatch54 = JSON.parse(localStorage.getItem("resultlMatch54"));
+    senegalStats = JSON.parse(localStorage.getItem("senegalSavedStats"));
+    irakStats = JSON.parse(localStorage.getItem("irakSavedStats"));
 
+    //recarga la UI con los datos cargados
+    matchFiftyFour.innerHTML = `    <div class="matchComplete">
+                                <div class="match-rivals">
+                                    <div>
+                                        <img src="images/senegal-bandera.png" >
+                                    </div>
+                                    <div class="rival1team">${senegalStats.country}</div>
+                                    <p class="rival1score">${resultlMatch54.senegal}<p/>
+                                    <span>-</span>
+                                    <p class="rival2score">${resultlMatch54.irak}<p/>
+                                    <div class="rival2team">${irakStats.country}</div>
+                                    <div>
+                                        <img src="images/irak-bandera.png" >
+                                    </div>
+                                </div>
+                            </div>
+                        `
+
+    senegalPlayedGames.textContent = senegalStats.pj
+    senegalWonGames.textContent = senegalStats.pg
+    senegalDrawGames.textContent = senegalStats.pe
+    senegalLostGames.textContent = senegalStats.pp
+    senegalGoalDifference.textContent = senegalStats.dg
+    senegalPoints.textContent = senegalStats.pts
+
+    irakPlayedGames.textContent = irakStats.pj
+    irakWonGames.textContent = irakStats.pg
+    irakDrawGames.textContent = irakStats.pe
+    irakLostGames.textContent = irakStats.pp
+    irakGoalDifference.textContent = irakStats.dg
+    irakPoints.textContent = irakStats.pts
+}
 
 
 

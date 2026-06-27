@@ -166,7 +166,9 @@ main .hero .hero-image {
     width: 40%;
     text-align: left;
     padding: 10px;
+
 }
+
 
 
 .column1-titles .matches {
@@ -189,6 +191,7 @@ main .hero .hero-image {
     align-items: center;
     text-transform: uppercase;
     padding: 10px;
+    text-decoration: underline green 2px;
 }
 
 .column2-titles .country span img {
@@ -216,6 +219,8 @@ main .hero .hero-image {
     align-items: center;
     padding: 10px;
     text-transform: uppercase;
+    text-decoration: underline green 2px;
+
 }
 
 .column3-titles .country span img {
@@ -443,6 +448,7 @@ input[type="number"]::-webkit-inner-spin-button {
     font-weight: 700;
     color: #ececec;
     border-radius: 12px;
+    margin-bottom: 3%;
 }
 
 .deleteBtn:hover {
